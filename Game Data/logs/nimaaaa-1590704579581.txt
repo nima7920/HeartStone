@@ -1,0 +1,377 @@
+Username : nimaaaa
+Password : zn13792000
+Created At : 2020/05/29 02:52:59
+
+exiting game At: 2020/05/29 02:53:07
+
+Login At:2020/06/02 12:21:06
+Login At:2020/06/08 13:59:43
+Menu:Collections At: 2020/06/08 13:59:49
+Panel:Decks At: 2020/06/08 13:59:53
+Panel:All Cards At: 2020/06/08 13:59:54
+All cards panel owned Cards filter:Not Owned At: 2020/06/08 14:00:07
+Card filter:Mana to 0 At: 2020/06/08 14:00:13
+Card filter:Mana to 1 At: 2020/06/08 14:00:13
+Card filter:Mana to 1 At: 2020/06/08 14:00:13
+Card filter:Mana to 1 At: 2020/06/08 14:00:15
+Card filter:Mana to 2 At: 2020/06/08 14:00:15
+Card filter:Mana to 2 At: 2020/06/08 14:00:15
+Card filter:Mana to 2 At: 2020/06/08 14:00:17
+Card filter:Mana to 3 At: 2020/06/08 14:00:18
+Card filter:Mana to 3 At: 2020/06/08 14:00:18
+Card filter:Mana to 3 At: 2020/06/08 14:00:19
+Card filter:Mana to 4 At: 2020/06/08 14:00:19
+Card filter:Mana to 4 At: 2020/06/08 14:00:20
+All cards panel CardClass filter:Warlock At: 2020/06/08 14:00:21
+All cards panel CardClass filter:Paladin At: 2020/06/08 14:00:23
+All cards panel CardClass filter:Hunter At: 2020/06/08 14:00:25
+All cards panel CardClass filter:Neutral At: 2020/06/08 14:00:27
+All cards panel CardClass filter:All Cards At: 2020/06/08 14:00:29
+Card filter:Mana to 4 At: 2020/06/08 14:00:31
+Card filter:Mana to 5 At: 2020/06/08 14:00:32
+Card filter:Mana to 5 At: 2020/06/08 14:00:32
+All cards panel CardClass filter:Hunter At: 2020/06/08 14:00:33
+Card filter:Mana to 5 At: 2020/06/08 14:00:35
+Card filter:Mana to 6 At: 2020/06/08 14:00:35
+Card filter:Mana to 6 At: 2020/06/08 14:00:36
+Card filter:Mana to 6 At: 2020/06/08 14:00:37
+Card filter:Mana to 7 At: 2020/06/08 14:00:37
+Card filter:Mana to 7 At: 2020/06/08 14:00:37
+Card filter:Mana to 7 At: 2020/06/08 14:00:40
+Card filter:Mana to 8 At: 2020/06/08 14:00:40
+Card filter:Mana to 8 At: 2020/06/08 14:00:40
+Card filter:Mana to 8 At: 2020/06/08 14:00:41
+Card filter:Mana to 9 At: 2020/06/08 14:00:41
+Card filter:Mana to 9 At: 2020/06/08 14:00:41
+Card filter:Mana to 9 At: 2020/06/08 14:00:43
+Card filter:Mana to 10 At: 2020/06/08 14:00:43
+Card filter:Mana to 10 At: 2020/06/08 14:00:43
+Card filter:Mana to 10 At: 2020/06/08 14:00:45
+Card filter:Mana to 9 At: 2020/06/08 14:00:45
+Card filter:Mana to 9 At: 2020/06/08 14:00:46
+Card filter:Mana to 9 At: 2020/06/08 14:00:46
+Card filter:Mana to 8 At: 2020/06/08 14:00:46
+Card filter:Mana to 8 At: 2020/06/08 14:00:46
+All cards panel CardClass filter:Rogue At: 2020/06/08 14:00:48
+Card filter:Mana to 8 At: 2020/06/08 14:00:50
+Card filter:Mana to 7 At: 2020/06/08 14:00:50
+Card filter:Mana to 7 At: 2020/06/08 14:00:50
+Card filter:Mana to 7 At: 2020/06/08 14:00:50
+Card filter:Mana to 6 At: 2020/06/08 14:00:50
+Card filter:Mana to 6 At: 2020/06/08 14:00:50
+Card filter:Mana to 6 At: 2020/06/08 14:00:51
+Card filter:Mana to 5 At: 2020/06/08 14:00:51
+Card filter:Mana to 5 At: 2020/06/08 14:00:51
+Card filter:Mana to 5 At: 2020/06/08 14:00:52
+Card filter:Mana to 4 At: 2020/06/08 14:00:52
+Card filter:Mana to 4 At: 2020/06/08 14:00:52
+Card filter:Mana to 4 At: 2020/06/08 14:00:54
+Card filter:Mana to 3 At: 2020/06/08 14:00:54
+Card filter:Mana to 3 At: 2020/06/08 14:00:54
+Card filter:Mana to 3 At: 2020/06/08 14:00:55
+Card filter:Mana to 2 At: 2020/06/08 14:00:55
+Card filter:Mana to 2 At: 2020/06/08 14:00:55
+Card filter:Mana to 2 At: 2020/06/08 14:00:56
+Card filter:Mana to 1 At: 2020/06/08 14:00:56
+Card filter:Mana to 1 At: 2020/06/08 14:00:56
+Card filter:Mana to 1 At: 2020/06/08 14:01:00
+Card filter:Mana to 0 At: 2020/06/08 14:01:00
+Card filter:Mana to 0 At: 2020/06/08 14:01:00
+Card filter:Mana to 0 At: 2020/06/08 14:01:03
+Card filter:Mana to 1 At: 2020/06/08 14:01:03
+Card filter:Mana to 1 At: 2020/06/08 14:01:03
+Card filter:Mana to 1 At: 2020/06/08 14:01:06
+Card filter:Mana to 2 At: 2020/06/08 14:01:06
+Card filter:Mana to 2 At: 2020/06/08 14:01:07
+All cards panel owned Cards filter:Owned At: 2020/06/08 14:01:16
+All cards panel CardClass filter:Warlock At: 2020/06/08 14:01:18
+All cards panel owned Cards filter:Not Owned At: 2020/06/08 14:01:23
+All cards panel CardClass filter:All Cards At: 2020/06/08 14:01:25
+Card filter:Mana to 2 At: 2020/06/08 14:01:27
+Card filter:Mana to 1 At: 2020/06/08 14:01:27
+Card filter:Mana to 1 At: 2020/06/08 14:01:27
+Card filter:Mana to 1 At: 2020/06/08 14:01:27
+Card filter:Mana to 0 At: 2020/06/08 14:01:28
+Card filter:Mana to 0 At: 2020/06/08 14:01:28
+Panel:Decks At: 2020/06/08 14:02:14
+Panel:Create deck At: 2020/06/08 14:02:27
+back button:clicked At: 2020/06/08 14:02:29
+Add Card Button:Clicked At: 2020/06/08 14:02:39
+Error:Not deck is selected At: 2020/06/08 14:02:39
+change name button:Clicked At: 2020/06/08 14:02:52
+Error:Not deck is selected At: 2020/06/08 14:02:52
+Panel:Create deck At: 2020/06/08 14:03:19
+Hero selected:Rogue At: 2020/06/08 14:03:20
+Create button:clicked At: 2020/06/08 14:03:30
+Deck created:new rogue At: 2020/06/08 14:03:30
+Deck selected:new rogue At: 2020/06/08 14:03:32
+Deck selected:new rogue At: 2020/06/08 14:03:32
+Panel:All Cards At: 2020/06/08 14:03:35
+Direct buy:Friendly Smith At: 2020/06/08 14:03:39
+Card selected:Friendly Smith At: 2020/06/08 14:03:40
+Buy button:Clicked At: 2020/06/08 14:03:43
+Buy:Successful At: 2020/06/08 14:03:46
+Card selected:Murloc Raider At: 2020/06/08 14:03:51
+Buy button:Clicked At: 2020/06/08 14:03:52
+Buy:Successful At: 2020/06/08 14:03:54
+Card selected:Arcane Servant At: 2020/06/08 14:03:57
+Buy button:Clicked At: 2020/06/08 14:03:58
+Buy:Successful At: 2020/06/08 14:04:00
+Back button:Clicked At: 2020/06/08 14:04:01
+Menu:Collections At: 2020/06/08 14:04:03
+All cards panel owned Cards filter:Owned At: 2020/06/08 14:04:06
+Panel:Decks At: 2020/06/08 14:04:10
+Add Card Button:Clicked At: 2020/06/08 14:04:14
+Panel:Add card panel At: 2020/06/08 14:04:14
+Card selected:Arcane Servant At: 2020/06/08 14:04:25
+Add button:clicked At: 2020/06/08 14:04:27
+Card added:Arcane Servant At: 2020/06/08 14:04:27
+Card selected:Murloc Raider At: 2020/06/08 14:04:28
+Add button:clicked At: 2020/06/08 14:04:30
+Card added:Murloc Raider At: 2020/06/08 14:04:30
+Card selected:Friendly Smith At: 2020/06/08 14:04:32
+Add button:clicked At: 2020/06/08 14:04:33
+Card added:Friendly Smith At: 2020/06/08 14:04:33
+back button:clicked At: 2020/06/08 14:04:39
+Card selected:Murloc Raider At: 2020/06/08 14:04:58
+Card removed:Murloc Raider At: 2020/06/08 14:05:00
+Panel:Create deck At: 2020/06/08 14:05:37
+Hero selected:Mage At: 2020/06/08 14:05:38
+Create button:clicked At: 2020/06/08 14:05:44
+Deck created:mage1 At: 2020/06/08 14:05:44
+Panel:Create deck At: 2020/06/08 14:05:46
+Hero selected:Mage At: 2020/06/08 14:05:47
+Create button:clicked At: 2020/06/08 14:05:52
+Deck created:mage2 At: 2020/06/08 14:05:52
+Panel:Create deck At: 2020/06/08 14:05:54
+Hero selected:Mage At: 2020/06/08 14:05:55
+Hero selected:Warlock At: 2020/06/08 14:05:59
+Create button:clicked At: 2020/06/08 14:06:03
+Deck created:warlock1 At: 2020/06/08 14:06:03
+Panel:Create deck At: 2020/06/08 14:06:05
+Hero selected:Warlock At: 2020/06/08 14:06:06
+Create button:clicked At: 2020/06/08 14:06:14
+Deck created:warlock2 At: 2020/06/08 14:06:14
+Panel:Create deck At: 2020/06/08 14:06:16
+Hero selected:Paladin At: 2020/06/08 14:06:17
+Create button:clicked At: 2020/06/08 14:06:22
+Deck created:paladin1 At: 2020/06/08 14:06:22
+Panel:Create deck At: 2020/06/08 14:06:23
+Hero selected:Paladin At: 2020/06/08 14:06:25
+Create button:clicked At: 2020/06/08 14:06:31
+Deck created:paladin2 At: 2020/06/08 14:06:31
+Panel:Create deck At: 2020/06/08 14:06:32
+Hero selected:Hunter At: 2020/06/08 14:06:34
+Create button:clicked At: 2020/06/08 14:06:41
+Deck created:hunter1 At: 2020/06/08 14:06:41
+Panel:Create deck At: 2020/06/08 14:06:43
+Create button:clicked At: 2020/06/08 14:06:49
+Deck created:hunter2 At: 2020/06/08 14:06:49
+Panel:Create deck At: 2020/06/08 14:06:50
+Hero selected:Rogue At: 2020/06/08 14:06:52
+Create button:clicked At: 2020/06/08 14:06:57
+Deck created:rogue1 At: 2020/06/08 14:06:57
+Panel:Create deck At: 2020/06/08 14:07:00
+Hero selected:Mage At: 2020/06/08 14:07:00
+Create button:clicked At: 2020/06/08 14:07:06
+Error:Deck list is full At: 2020/06/08 14:07:06
+back button:clicked At: 2020/06/08 14:07:12
+Deck selected:rogue1 At: 2020/06/08 14:07:14
+Deck selected:rogue1 At: 2020/06/08 14:07:14
+Delete deck button:clicked At: 2020/06/08 14:07:16
+Deck deleted:rogue1 At: 2020/06/08 14:07:16
+Deck selected:hunter2 At: 2020/06/08 14:07:19
+Deck selected:hunter2 At: 2020/06/08 14:07:19
+Delete deck button:clicked At: 2020/06/08 14:07:20
+Deck deleted:hunter2 At: 2020/06/08 14:07:20
+Login At:2020/06/08 14:07:58
+Menu:Collections At: 2020/06/08 14:08:02
+Panel:Decks At: 2020/06/08 14:08:06
+Back button:back to main menu At: 2020/06/08 14:08:24
+Menu:Collections;current deck is not ready for playing At: 2020/06/08 14:08:25
+Deck selected:new rogue At: 2020/06/08 14:08:30
+Deck selected:new rogue At: 2020/06/08 14:08:30
+Set current button:Clicked At: 2020/06/08 14:08:32
+Error:Deck does not have enough cards At: 2020/06/08 14:08:32
+Back button:back to main menu At: 2020/06/08 14:08:37
+Login At:2020/06/15 18:31:45
+Login At:2020/06/15 21:57:41
+Login At:2020/06/15 22:00:20
+Login At:2020/06/15 22:02:32
+Menu:Collections;current deck is not ready for playing At: 2020/06/15 22:02:35
+Panel:Decks At: 2020/06/15 22:02:40
+Deck selected:new rogue At: 2020/06/15 22:02:42
+Deck selected:new rogue At: 2020/06/15 22:02:42
+Deck selected:mage1 At: 2020/06/15 22:02:43
+Deck selected:mage1 At: 2020/06/15 22:02:43
+Deck selected:mage2 At: 2020/06/15 22:02:44
+Deck selected:mage2 At: 2020/06/15 22:02:44
+Deck selected:warlock1 At: 2020/06/15 22:02:45
+Deck selected:warlock1 At: 2020/06/15 22:02:45
+Deck selected:warlock2 At: 2020/06/15 22:02:46
+Deck selected:warlock2 At: 2020/06/15 22:02:46
+Deck selected:paladin1 At: 2020/06/15 22:02:48
+Deck selected:paladin1 At: 2020/06/15 22:02:48
+Add Card Button:Clicked At: 2020/06/15 22:02:50
+Panel:Add card panel At: 2020/06/15 22:02:50
+back button:clicked At: 2020/06/15 22:02:53
+Back button:back to main menu At: 2020/06/15 22:02:56
+Menu:Status At: 2020/06/15 22:03:00
+Back button:Clicked At: 2020/06/15 22:03:27
+Menu:Status At: 2020/06/15 22:03:31
+Back button:Clicked At: 2020/06/15 22:03:33
+Menu:Collections At: 2020/06/15 22:03:34
+Deck selected:paladin2 At: 2020/06/15 22:03:37
+Deck selected:paladin2 At: 2020/06/15 22:03:37
+Deck selected:hunter1 At: 2020/06/15 22:03:39
+Deck selected:hunter1 At: 2020/06/15 22:03:39
+Deck selected:warlock1 At: 2020/06/15 22:03:41
+Deck selected:warlock1 At: 2020/06/15 22:03:41
+Deck selected:new rogue At: 2020/06/15 22:03:42
+Deck selected:new rogue At: 2020/06/15 22:03:42
+exiting game At: 2020/06/15 22:03:44
+
+Login At:2020/06/16 01:34:24
+Menu:Collections At: 2020/06/16 01:34:27
+Panel:Decks At: 2020/06/16 01:34:29
+Deck selected:warlock2 At: 2020/06/16 01:34:30
+Deck selected:warlock2 At: 2020/06/16 01:34:30
+Back button:back to main menu At: 2020/06/16 01:34:34
+exiting game At: 2020/06/16 01:34:38
+
+Login At:2020/06/17 19:36:19
+Menu:Store At: 2020/06/17 19:36:21
+Back button:Clicked At: 2020/06/17 19:36:25
+Menu:Status At: 2020/06/17 19:36:28
+Back button:Clicked At: 2020/06/17 19:36:30
+Menu:Status At: 2020/06/17 19:36:31
+Back button:Clicked At: 2020/06/17 19:36:33
+Menu:Collections At: 2020/06/17 19:36:34
+All cards panel CardClass filter:All Cards At: 2020/06/17 19:36:37
+All cards panel owned Cards filter:Not Owned At: 2020/06/17 19:36:39
+All cards panel CardClass filter:Neutral At: 2020/06/17 19:36:50
+All cards panel CardClass filter:Hunter At: 2020/06/17 19:37:00
+Direct buy:Multi-Shot At: 2020/06/17 19:37:05
+exiting game At: 2020/06/17 19:37:18
+
+Login At:2020/06/17 19:40:41
+Menu:Collections At: 2020/06/17 19:40:44
+exiting game At: 2020/06/17 19:40:47
+
+Login At:2020/06/17 19:42:49
+Menu:Collections;current deck is not ready for playing At: 2020/06/17 19:42:51
+Back button:back to main menu At: 2020/06/17 19:42:55
+Menu:Store At: 2020/06/17 19:42:57
+Card selected:Silverback Patriarch At: 2020/06/17 19:42:59
+Buy button:Clicked At: 2020/06/17 19:43:01
+Buy:Successful At: 2020/06/17 19:43:04
+Card selected:River Crocolisk At: 2020/06/17 19:43:08
+Buy button:Clicked At: 2020/06/17 19:43:09
+Buy:Successful At: 2020/06/17 19:43:11
+Card selected:Stonetusk Boar At: 2020/06/17 19:43:16
+Buy button:Clicked At: 2020/06/17 19:43:17
+Buy:Successful At: 2020/06/17 19:43:19
+Card selected:Proud Defender At: 2020/06/17 19:43:31
+Buy button:Clicked At: 2020/06/17 19:43:33
+Buy:Successful At: 2020/06/17 19:43:35
+Card selected:Sinister Strike At: 2020/06/17 19:43:37
+Buy button:Clicked At: 2020/06/17 19:43:39
+Buy:Successful At: 2020/06/17 19:43:40
+Card selected:Phantom Militia At: 2020/06/17 19:43:44
+Buy button:Clicked At: 2020/06/17 19:43:45
+Buy:Successful At: 2020/06/17 19:43:47
+Back button:Clicked At: 2020/06/17 19:43:50
+Menu:Collections At: 2020/06/17 19:43:52
+All cards panel CardClass filter:All Cards At: 2020/06/17 19:43:55
+Panel:Decks At: 2020/06/17 19:44:01
+Deck selected:mage1 At: 2020/06/17 19:44:07
+Deck selected:mage1 At: 2020/06/17 19:44:07
+Add Card Button:Clicked At: 2020/06/17 19:44:10
+Panel:Add card panel At: 2020/06/17 19:44:10
+Card selected:River Crocolisk At: 2020/06/17 19:44:11
+Add button:clicked At: 2020/06/17 19:44:12
+Card added:River Crocolisk At: 2020/06/17 19:44:12
+Card selected:River Crocolisk At: 2020/06/17 19:44:13
+Add button:clicked At: 2020/06/17 19:44:15
+Card added:River Crocolisk At: 2020/06/17 19:44:15
+Card selected:Arcane Servant At: 2020/06/17 19:44:16
+Add button:clicked At: 2020/06/17 19:44:17
+Card added:Arcane Servant At: 2020/06/17 19:44:17
+Card selected:Arcane Servant At: 2020/06/17 19:44:18
+Add button:clicked At: 2020/06/17 19:44:20
+Card added:Arcane Servant At: 2020/06/17 19:44:20
+Card selected:Silverback Patriarch At: 2020/06/17 19:44:21
+Add button:clicked At: 2020/06/17 19:44:22
+Card added:Silverback Patriarch At: 2020/06/17 19:44:22
+Card selected:Silverback Patriarch At: 2020/06/17 19:44:23
+Add button:clicked At: 2020/06/17 19:44:25
+Card added:Silverback Patriarch At: 2020/06/17 19:44:25
+Card selected:Phantom Militia At: 2020/06/17 19:44:26
+Add button:clicked At: 2020/06/17 19:44:27
+Card added:Phantom Militia At: 2020/06/17 19:44:27
+Card selected:Phantom Militia At: 2020/06/17 19:44:29
+Add button:clicked At: 2020/06/17 19:44:30
+Card added:Phantom Militia At: 2020/06/17 19:44:30
+Card selected:Murloc Raider At: 2020/06/17 19:44:31
+Add button:clicked At: 2020/06/17 19:44:32
+Card added:Murloc Raider At: 2020/06/17 19:44:33
+Card selected:Murloc Raider At: 2020/06/17 19:44:33
+Add button:clicked At: 2020/06/17 19:44:35
+Card added:Murloc Raider At: 2020/06/17 19:44:35
+Card selected:Stonetusk Boar At: 2020/06/17 19:44:36
+Add button:clicked At: 2020/06/17 19:44:37
+Card added:Stonetusk Boar At: 2020/06/17 19:44:37
+Card selected:Stonetusk Boar At: 2020/06/17 19:44:38
+Add button:clicked At: 2020/06/17 19:44:40
+Card added:Stonetusk Boar At: 2020/06/17 19:44:40
+Card selected:Proud Defender At: 2020/06/17 19:44:41
+Add button:clicked At: 2020/06/17 19:44:42
+Card added:Proud Defender At: 2020/06/17 19:44:42
+Card selected:Proud Defender At: 2020/06/17 19:44:43
+Add button:clicked At: 2020/06/17 19:44:47
+Card added:Proud Defender At: 2020/06/17 19:44:47
+back button:clicked At: 2020/06/17 19:44:50
+Set current button:Clicked At: 2020/06/17 19:45:02
+Error:Deck does not have enough cards At: 2020/06/17 19:45:02
+Set current button:Clicked At: 2020/06/17 19:45:08
+Error:Deck does not have enough cards At: 2020/06/17 19:45:08
+Panel:All Cards At: 2020/06/17 19:45:25
+All cards panel owned Cards filter:Not Owned At: 2020/06/17 19:45:27
+Direct buy:Arcane Missiles At: 2020/06/17 19:45:35
+Card selected:Drain Life At: 2020/06/17 19:45:36
+Card selected:The Black Knight At: 2020/06/17 19:45:40
+Buy button:Clicked At: 2020/06/17 19:45:42
+Buy:Successful At: 2020/06/17 19:45:43
+Back button:Clicked At: 2020/06/17 19:45:46
+Menu:Collections At: 2020/06/17 19:45:57
+Panel:Decks At: 2020/06/17 19:45:59
+Add Card Button:Clicked At: 2020/06/17 19:46:03
+Panel:Add card panel At: 2020/06/17 19:46:03
+Card selected:The Black Knight At: 2020/06/17 19:46:04
+Add button:clicked At: 2020/06/17 19:46:06
+Card added:The Black Knight At: 2020/06/17 19:46:06
+Card selected:The Black Knight At: 2020/06/17 19:46:08
+Add button:clicked At: 2020/06/17 19:46:09
+Card added:The Black Knight At: 2020/06/17 19:46:09
+back button:clicked At: 2020/06/17 19:46:12
+Back button:back to main menu At: 2020/06/17 19:46:16
+Menu:Collections At: 2020/06/17 19:46:19
+Set current button:Clicked At: 2020/06/17 19:46:24
+Set Current:mage1  is current deck At: 2020/06/17 19:46:24
+Back button:back to main menu At: 2020/06/17 19:46:27
+Menu:Play;current deck is ready At: 2020/06/17 19:46:29
+Passive Selected:Warriors: For each dead minion achieve +1 defense for hero At: 2020/06/17 19:46:34
+Minion Card Played:Murloc Raider At: 2020/06/17 19:46:40
+Error:Not enough mana for The Black Knight At: 2020/06/17 19:46:47
+End Turn button:Clicked At: 2020/06/17 19:46:49
+Minion Card Played:Arcane Servant At: 2020/06/17 19:47:02
+Back button:Clicked At: 2020/06/17 19:47:06
+Menu:Play;current deck is ready At: 2020/06/17 19:47:08
+Passive Selected:Warriors: For each dead minion achieve +1 defense for hero At: 2020/06/17 19:47:09
+Back button:Clicked At: 2020/06/17 19:47:13
+exiting game At: 2020/06/17 19:47:15
+
+Login At:2020/06/17 19:57:27
+exiting game At: 2020/06/17 19:57:50
+
+Login At:2020/06/24 20:04:55

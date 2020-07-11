@@ -1,0 +1,29 @@
+{
+  "name": "nimaaaa",
+  "password": "zn13792000",
+  "id": 1590704579581,
+  "gems": 53,
+  "deckNames": [
+    "new rogue",
+    "mage1",
+    "mage2",
+    "warlock1",
+    "warlock2",
+    "paladin1",
+    "paladin2",
+    "hunter1"
+  ],
+  "currentDeckName": "mage1",
+  "ownedCardsName": [
+    "Friendly Smith",
+    "Murloc Raider",
+    "Arcane Servant",
+    "Silverback Patriarch",
+    "River Crocolisk",
+    "Stonetusk Boar",
+    "Proud Defender",
+    "Sinister Strike",
+    "Phantom Militia",
+    "The Black Knight"
+  ]
+}

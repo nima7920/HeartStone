@@ -1,0 +1,726 @@
+Username : zn
+Password : zn13792000
+Created At : 2020/06/17 20:05:24
+
+exiting game At: 2020/06/17 20:05:27
+
+Login At:2020/06/17 20:05:41
+exiting game At: 2020/06/17 20:05:44
+
+Login At:2020/06/18 11:30:46
+Menu:Collections;current deck is not ready for playing At: 2020/06/18 11:30:51
+All cards panel owned Cards filter:Not Owned At: 2020/06/18 11:30:53
+Direct buy:River Crocolisk At: 2020/06/18 11:31:08
+exiting game At: 2020/06/18 11:31:46
+
+Login At:2020/06/18 17:06:37
+exiting game At: 2020/06/18 17:06:39
+
+Login At:2020/06/24 20:06:08
+Menu:Store At: 2020/06/24 20:06:11
+Back button:Clicked At: 2020/06/24 20:06:18
+Menu:Collections At: 2020/06/24 20:06:20
+Back button:back to main menu At: 2020/06/24 20:06:23
+Menu:Status At: 2020/06/24 20:06:27
+Menu:Status At: 2020/06/24 20:08:00
+Login At:2020/06/24 20:08:15
+Menu:Status At: 2020/06/24 20:08:16
+Back button:Clicked At: 2020/06/24 20:08:20
+Menu:Collections At: 2020/06/24 20:08:21
+Panel:Decks At: 2020/06/24 20:08:23
+Panel:Create deck At: 2020/06/24 20:08:25
+Hero selected:Mage At: 2020/06/24 20:08:28
+Create button:clicked At: 2020/06/24 20:08:32
+Deck created:my mage At: 2020/06/24 20:08:33
+Back button:back to main menu At: 2020/06/24 20:08:35
+Menu:Status At: 2020/06/24 20:08:36
+Back button:Clicked At: 2020/06/24 20:08:39
+Menu:Collections;current deck is not ready for playing At: 2020/06/24 20:08:40
+Back button:back to main menu At: 2020/06/24 20:08:44
+exiting game At: 2020/06/24 20:08:46
+
+Login At:2020/06/24 20:08:59
+Menu:Status At: 2020/06/24 20:09:00
+Back button:Clicked At: 2020/06/24 20:09:04
+Menu:Store At: 2020/06/24 20:09:07
+Card selected:Polymorph At: 2020/06/24 20:09:09
+Buy button:Clicked At: 2020/06/24 20:09:11
+Buy:Successful At: 2020/06/24 20:09:12
+Card selected:River Crocolisk At: 2020/06/24 20:09:14
+Buy button:Clicked At: 2020/06/24 20:09:16
+Buy:Successful At: 2020/06/24 20:09:17
+Card selected:Arcane Servant At: 2020/06/24 20:09:19
+Buy button:Clicked At: 2020/06/24 20:09:20
+Buy:Successful At: 2020/06/24 20:09:22
+Card selected:Silverback Patriarch At: 2020/06/24 20:09:23
+Buy button:Clicked At: 2020/06/24 20:09:24
+Buy:Successful At: 2020/06/24 20:09:26
+Card selected:Murloc Raider At: 2020/06/24 20:09:27
+Buy button:Clicked At: 2020/06/24 20:09:28
+Buy:Successful At: 2020/06/24 20:09:30
+Card selected:Stonetusk Boar At: 2020/06/24 20:09:41
+Buy button:Clicked At: 2020/06/24 20:09:42
+Buy:Successful At: 2020/06/24 20:09:43
+Card selected:Rotten Applebaum At: 2020/06/24 20:09:47
+Card selected:Fireball At: 2020/06/24 20:09:50
+Buy button:Clicked At: 2020/06/24 20:09:52
+Buy:Successful At: 2020/06/24 20:09:54
+Card selected:Sinister Strike At: 2020/06/24 20:09:56
+Buy button:Clicked At: 2020/06/24 20:09:58
+Buy:Successful At: 2020/06/24 20:09:59
+Card selected:The Black Knight At: 2020/06/24 20:10:01
+Buy button:Clicked At: 2020/06/24 20:10:02
+Buy:Successful At: 2020/06/24 20:10:04
+Card selected:Arcane Explosion At: 2020/06/24 20:10:09
+Buy button:Clicked At: 2020/06/24 20:10:10
+Buy:Successful At: 2020/06/24 20:10:12
+Card selected:Iron Fist At: 2020/06/24 20:10:16
+Buy button:Clicked At: 2020/06/24 20:10:18
+Buy:Successful At: 2020/06/24 20:10:19
+Back button:Clicked At: 2020/06/24 20:10:23
+Menu:Collections At: 2020/06/24 20:10:27
+Panel:Decks At: 2020/06/24 20:10:29
+Deck selected:my mage At: 2020/06/24 20:10:31
+Deck selected:my mage At: 2020/06/24 20:10:31
+Add Card Button:Clicked At: 2020/06/24 20:10:33
+Panel:Add card panel At: 2020/06/24 20:10:33
+Card selected:River Crocolisk At: 2020/06/24 20:10:35
+Add button:clicked At: 2020/06/24 20:10:36
+Card added:River Crocolisk At: 2020/06/24 20:10:36
+Card selected:River Crocolisk At: 2020/06/24 20:10:37
+Add button:clicked At: 2020/06/24 20:10:38
+Card added:River Crocolisk At: 2020/06/24 20:10:38
+Card selected:Arcane Servant At: 2020/06/24 20:10:39
+Add button:clicked At: 2020/06/24 20:10:41
+Card added:Arcane Servant At: 2020/06/24 20:10:41
+Card selected:Arcane Servant At: 2020/06/24 20:10:42
+Add button:clicked At: 2020/06/24 20:10:43
+Card added:Arcane Servant At: 2020/06/24 20:10:43
+Card selected:Silverback Patriarch At: 2020/06/24 20:10:44
+Add button:clicked At: 2020/06/24 20:10:46
+Card added:Silverback Patriarch At: 2020/06/24 20:10:46
+Card selected:Silverback Patriarch At: 2020/06/24 20:10:47
+Add button:clicked At: 2020/06/24 20:10:48
+Card added:Silverback Patriarch At: 2020/06/24 20:10:48
+Card selected:Murloc Raider At: 2020/06/24 20:10:49
+Add button:clicked At: 2020/06/24 20:10:51
+Card added:Murloc Raider At: 2020/06/24 20:10:51
+Card selected:Murloc Raider At: 2020/06/24 20:10:52
+Add button:clicked At: 2020/06/24 20:10:53
+Card added:Murloc Raider At: 2020/06/24 20:10:53
+Card selected:Stonetusk Boar At: 2020/06/24 20:10:54
+Add button:clicked At: 2020/06/24 20:10:55
+Card added:Stonetusk Boar At: 2020/06/24 20:10:55
+Card selected:Stonetusk Boar At: 2020/06/24 20:10:56
+Add button:clicked At: 2020/06/24 20:10:58
+Card added:Stonetusk Boar At: 2020/06/24 20:10:58
+Card selected:The Black Knight At: 2020/06/24 20:10:59
+Add button:clicked At: 2020/06/24 20:11:00
+Card added:The Black Knight At: 2020/06/24 20:11:00
+Card selected:The Black Knight At: 2020/06/24 20:11:01
+Add button:clicked At: 2020/06/24 20:11:03
+Card added:The Black Knight At: 2020/06/24 20:11:03
+Card selected:Fireball At: 2020/06/24 20:11:04
+Add button:clicked At: 2020/06/24 20:11:05
+Card added:Fireball At: 2020/06/24 20:11:05
+Card selected:Fireball At: 2020/06/24 20:11:06
+Add button:clicked At: 2020/06/24 20:11:07
+Card added:Fireball At: 2020/06/24 20:11:07
+Card selected:Arcane Explosion At: 2020/06/24 20:11:08
+Add button:clicked At: 2020/06/24 20:11:10
+Card added:Arcane Explosion At: 2020/06/24 20:11:10
+Card selected:Arcane Explosion At: 2020/06/24 20:11:11
+Add button:clicked At: 2020/06/24 20:11:12
+Card added:Arcane Explosion At: 2020/06/24 20:11:12
+Card selected:Polymorph At: 2020/06/24 20:11:13
+Add button:clicked At: 2020/06/24 20:11:14
+Card added:Polymorph At: 2020/06/24 20:11:14
+Card selected:Polymorph At: 2020/06/24 20:11:15
+Add button:clicked At: 2020/06/24 20:11:17
+Card added:Polymorph At: 2020/06/24 20:11:17
+Card selected:Iron Fist At: 2020/06/24 20:11:18
+Add button:clicked At: 2020/06/24 20:11:19
+Card added:Iron Fist At: 2020/06/24 20:11:19
+Card selected:Iron Fist At: 2020/06/24 20:11:20
+Add button:clicked At: 2020/06/24 20:11:21
+Card added:Iron Fist At: 2020/06/24 20:11:22
+back button:clicked At: 2020/06/24 20:11:23
+Set current button:Clicked At: 2020/06/24 20:11:27
+Set Current:my mage  is current deck At: 2020/06/24 20:11:27
+Back button:back to main menu At: 2020/06/24 20:11:30
+Menu:Play;current deck is ready At: 2020/06/24 20:11:31
+Passive Selected:Twice draw: Draw 2 cards each turn At: 2020/06/24 20:11:34
+Minion Card Played:Stonetusk Boar At: 2020/06/24 20:11:43
+End Turn button:Clicked At: 2020/06/24 20:12:06
+Error:Not enough mana for Silverback Patriarch At: 2020/06/24 20:12:11
+Minion Card Played:River Crocolisk At: 2020/06/24 20:12:13
+End Turn button:Clicked At: 2020/06/24 20:12:15
+Spell Card Played:Iron Fist At: 2020/06/24 20:12:18
+End Turn button:Clicked At: 2020/06/24 20:12:22
+Spell Card Played:Fireball At: 2020/06/24 20:12:28
+End Turn button:Clicked At: 2020/06/24 20:12:31
+Minion Card Played:Silverback Patriarch At: 2020/06/24 20:12:34
+Minion Card Played:Stonetusk Boar At: 2020/06/24 20:12:35
+End Turn button:Clicked At: 2020/06/24 20:12:37
+Spell Card Played:Arcane Explosion At: 2020/06/24 20:12:39
+Error:Not enough mana for The Black Knight At: 2020/06/24 20:12:40
+End Turn button:Clicked At: 2020/06/24 20:12:41
+Minion Card Played:The Black Knight At: 2020/06/24 20:12:43
+End Turn button:Clicked At: 2020/06/24 20:12:46
+Spell Card Played:Polymorph At: 2020/06/24 20:12:48
+Spell Card Played:Iron Fist At: 2020/06/24 20:12:49
+End Turn button:Clicked At: 2020/06/24 20:12:51
+Minion Card Played:River Crocolisk At: 2020/06/24 20:12:53
+End Turn button:Clicked At: 2020/06/24 20:12:55
+Spell Card Played:Polymorph At: 2020/06/24 20:12:57
+End Turn button:Clicked At: 2020/06/24 20:12:58
+Minion Card Played:Murloc Raider At: 2020/06/24 20:13:00
+End Turn button:Clicked At: 2020/06/24 20:13:02
+End Turn button:Clicked At: 2020/06/24 20:13:03
+End Turn button:Clicked At: 2020/06/24 20:13:04
+End Turn button:Clicked At: 2020/06/24 20:13:05
+End Turn button:Clicked At: 2020/06/24 20:13:06
+End Turn button:Clicked At: 2020/06/24 20:13:06
+End Turn button:Clicked At: 2020/06/24 20:13:07
+Spell Card Played:Fireball At: 2020/06/24 20:13:09
+Spell Card Played:Arcane Explosion At: 2020/06/24 20:13:11
+Back button:Clicked At: 2020/06/24 20:13:15
+Menu:Status At: 2020/06/24 20:13:21
+Back button:Clicked At: 2020/06/24 20:13:33
+exiting game At: 2020/06/24 20:13:34
+
+Login At:2020/06/24 21:20:46
+Menu:Status At: 2020/06/24 21:20:50
+Back button:Clicked At: 2020/06/24 21:20:52
+Menu:Play;current deck is ready At: 2020/06/24 21:21:02
+Passive Selected:Mana jump: Earn +1 mana each turn At: 2020/06/24 21:21:03
+End Turn button:Clicked At: 2020/06/24 21:21:15
+Spell Card Played:Arcane Explosion At: 2020/06/24 21:21:18
+Back button:Clicked At: 2020/06/24 21:21:22
+Login At:2020/06/25 18:51:42
+Login At:2020/06/25 18:52:32
+exiting game At: 2020/06/25 18:52:35
+
+Login At:2020/06/25 18:53:40
+exiting game At: 2020/06/25 18:53:53
+
+Login At:2020/06/25 18:54:12
+exiting game At: 2020/06/25 18:56:15
+
+Login At:2020/06/25 18:56:26
+Login At:2020/06/25 18:56:49
+Login At:2020/06/25 18:58:32
+exiting game At: 2020/06/25 18:59:36
+
+Login At:2020/06/26 13:24:11
+exiting game At: 2020/06/26 13:24:45
+
+Login At:2020/06/29 23:50:17
+Login At:2020/06/30 00:46:49
+exiting game At: 2020/06/30 00:46:57
+
+Login At:2020/07/02 11:57:37
+Menu:Collections At: 2020/07/02 11:57:39
+Panel:Decks At: 2020/07/02 11:57:44
+Panel:Create deck At: 2020/07/02 11:57:45
+Hero selected:Mage At: 2020/07/02 11:57:47
+Create button:clicked At: 2020/07/02 11:57:52
+Deck created:mage1 At: 2020/07/02 11:57:52
+Deck selected:mage1 At: 2020/07/02 11:57:54
+Deck selected:mage1 At: 2020/07/02 11:57:54
+Deck selected:my mage At: 2020/07/02 11:57:56
+Deck selected:my mage At: 2020/07/02 11:57:57
+Card selected:Arcane Servant At: 2020/07/02 11:58:01
+Panel:All Cards At: 2020/07/02 11:58:03
+Card filter:Mana to 0 At: 2020/07/02 11:58:05
+Card filter:Mana to 1 At: 2020/07/02 11:58:05
+Card filter:Mana to 1 At: 2020/07/02 11:58:05
+Card filter:Mana to 1 At: 2020/07/02 11:58:08
+Card filter:Mana to 2 At: 2020/07/02 11:58:08
+Card filter:Mana to 2 At: 2020/07/02 11:58:08
+Card filter:Mana to 2 At: 2020/07/02 11:58:09
+Card filter:Mana to 3 At: 2020/07/02 11:58:09
+Card filter:Mana to 3 At: 2020/07/02 11:58:09
+Card filter:Mana to 3 At: 2020/07/02 11:58:10
+Card filter:Mana to 4 At: 2020/07/02 11:58:10
+Card filter:Mana to 4 At: 2020/07/02 11:58:11
+All cards panel CardClass filter:Paladin At: 2020/07/02 11:58:12
+All cards panel owned Cards filter:Not Owned At: 2020/07/02 11:58:14
+Back button:back to main menu At: 2020/07/02 11:58:18
+exiting game At: 2020/07/02 11:58:21
+
+Login At:2020/07/02 14:17:35
+Menu:Collections At: 2020/07/02 14:17:45
+Card filter:Mana to 0 At: 2020/07/02 14:17:48
+Card filter:Mana to 1 At: 2020/07/02 14:17:48
+Card filter:Mana to 1 At: 2020/07/02 14:17:48
+All cards panel owned Cards filter:Not Owned At: 2020/07/02 14:17:50
+All cards panel owned Cards filter:Owned At: 2020/07/02 14:17:53
+Card filter:Mana to 1 At: 2020/07/02 14:17:54
+Card filter:Mana to 2 At: 2020/07/02 14:17:54
+Card filter:Mana to 2 At: 2020/07/02 14:17:54
+Card filter:Mana to 2 At: 2020/07/02 14:17:55
+Card filter:Mana to 3 At: 2020/07/02 14:17:55
+Card filter:Mana to 3 At: 2020/07/02 14:17:56
+Card filter:Mana to 3 At: 2020/07/02 14:17:57
+Card filter:Mana to 4 At: 2020/07/02 14:17:57
+Card filter:Mana to 4 At: 2020/07/02 14:17:57
+Card filter:Mana to 4 At: 2020/07/02 14:17:59
+Card filter:Mana to 5 At: 2020/07/02 14:17:59
+Card filter:Mana to 5 At: 2020/07/02 14:17:59
+Card filter:Mana to 5 At: 2020/07/02 14:18:01
+Card filter:Mana to 6 At: 2020/07/02 14:18:01
+Card filter:Mana to 6 At: 2020/07/02 14:18:01
+Card filter:Mana to 6 At: 2020/07/02 14:18:02
+Card filter:Mana to 7 At: 2020/07/02 14:18:02
+Card filter:Mana to 7 At: 2020/07/02 14:18:02
+Card filter:Mana to 7 At: 2020/07/02 14:18:03
+Card filter:Mana to 8 At: 2020/07/02 14:18:03
+Card filter:Mana to 8 At: 2020/07/02 14:18:03
+Card filter:Mana to 8 At: 2020/07/02 14:18:04
+Card filter:Mana to 9 At: 2020/07/02 14:18:04
+Card filter:Mana to 9 At: 2020/07/02 14:18:04
+Card filter:Mana to 9 At: 2020/07/02 14:18:05
+Card filter:Mana to 10 At: 2020/07/02 14:18:05
+Card filter:Mana to 10 At: 2020/07/02 14:18:05
+All cards panel CardClass filter:Hunter At: 2020/07/02 14:18:07
+All cards panel CardClass filter:Paladin At: 2020/07/02 14:18:08
+All cards panel CardClass filter:Warlock At: 2020/07/02 14:18:08
+All cards panel CardClass filter:Mage At: 2020/07/02 14:18:09
+All cards panel CardClass filter:Neutral At: 2020/07/02 14:18:09
+All cards panel CardClass filter:All Cards At: 2020/07/02 14:18:10
+exiting game At: 2020/07/02 14:18:12
+
+Login At:2020/07/02 14:20:17
+Menu:Collections At: 2020/07/02 14:20:22
+Card filter:Mana to 0 At: 2020/07/02 14:20:23
+Card filter:Mana to 1 At: 2020/07/02 14:20:24
+Card filter:Mana to 1 At: 2020/07/02 14:20:24
+Card filter:Mana to 1 At: 2020/07/02 14:20:25
+Card filter:Mana to 2 At: 2020/07/02 14:20:25
+Card filter:Mana to 2 At: 2020/07/02 14:20:25
+Card filter:Mana to 2 At: 2020/07/02 14:20:26
+Card filter:Mana to 1 At: 2020/07/02 14:20:26
+Card filter:Mana to 1 At: 2020/07/02 14:20:26
+Card filter:Mana to 1 At: 2020/07/02 14:20:26
+Card filter:Mana to 0 At: 2020/07/02 14:20:26
+Card filter:Mana to 0 At: 2020/07/02 14:20:27
+Card filter:Mana to 0 At: 2020/07/02 14:20:29
+Card filter:Mana to 1 At: 2020/07/02 14:20:29
+Card filter:Mana to 1 At: 2020/07/02 14:20:29
+Card filter:Mana to 1 At: 2020/07/02 14:20:30
+Card filter:Mana to 2 At: 2020/07/02 14:20:30
+Card filter:Mana to 2 At: 2020/07/02 14:20:30
+Card filter:Mana to 2 At: 2020/07/02 14:20:31
+Card filter:Mana to 3 At: 2020/07/02 14:20:31
+Card filter:Mana to 3 At: 2020/07/02 14:20:31
+Card filter:Mana to 3 At: 2020/07/02 14:20:33
+Card filter:Mana to 4 At: 2020/07/02 14:20:33
+Card filter:Mana to 4 At: 2020/07/02 14:20:33
+Card filter:Mana to 4 At: 2020/07/02 14:20:34
+Card filter:Mana to 5 At: 2020/07/02 14:20:34
+Card filter:Mana to 5 At: 2020/07/02 14:20:34
+Card filter:Mana to 5 At: 2020/07/02 14:20:35
+Card filter:Mana to 6 At: 2020/07/02 14:20:35
+Card filter:Mana to 6 At: 2020/07/02 14:20:35
+All cards panel owned Cards filter:Not Owned At: 2020/07/02 14:20:37
+Card filter:Mana to 6 At: 2020/07/02 14:20:38
+Card filter:Mana to 5 At: 2020/07/02 14:20:38
+Card filter:Mana to 5 At: 2020/07/02 14:20:38
+Card filter:Mana to 5 At: 2020/07/02 14:20:38
+Card filter:Mana to 4 At: 2020/07/02 14:20:38
+Card filter:Mana to 4 At: 2020/07/02 14:20:38
+Card filter:Mana to 4 At: 2020/07/02 14:20:38
+Card filter:Mana to 3 At: 2020/07/02 14:20:38
+Card filter:Mana to 3 At: 2020/07/02 14:20:38
+Card filter:Mana to 3 At: 2020/07/02 14:20:38
+Card filter:Mana to 2 At: 2020/07/02 14:20:38
+Card filter:Mana to 2 At: 2020/07/02 14:20:39
+Card filter:Mana to 2 At: 2020/07/02 14:20:39
+Card filter:Mana to 1 At: 2020/07/02 14:20:39
+Card filter:Mana to 1 At: 2020/07/02 14:20:39
+Card filter:Mana to 1 At: 2020/07/02 14:20:39
+Card filter:Mana to 0 At: 2020/07/02 14:20:39
+Card filter:Mana to 0 At: 2020/07/02 14:20:39
+All cards panel owned Cards filter:Owned At: 2020/07/02 14:20:40
+All cards panel owned Cards filter:Not Owned At: 2020/07/02 14:20:41
+All cards panel owned Cards filter:Owned At: 2020/07/02 14:20:42
+All cards panel CardClass filter:All Cards At: 2020/07/02 14:20:45
+All cards panel CardClass filter:Neutral At: 2020/07/02 14:20:46
+All cards panel CardClass filter:Mage At: 2020/07/02 14:20:47
+All cards panel CardClass filter:Rogue At: 2020/07/02 14:20:47
+All cards panel CardClass filter:Warlock At: 2020/07/02 14:20:48
+All cards panel CardClass filter:Paladin At: 2020/07/02 14:20:48
+All cards panel CardClass filter:Paladin At: 2020/07/02 14:20:49
+All cards panel CardClass filter:Hunter At: 2020/07/02 14:20:49
+exiting game At: 2020/07/02 14:20:54
+
+Login At:2020/07/02 14:21:18
+Menu:Collections At: 2020/07/02 14:21:20
+Card filter:Mana to 0 At: 2020/07/02 14:21:22
+Card filter:Mana to 1 At: 2020/07/02 14:21:22
+Card filter:Mana to 1 At: 2020/07/02 14:21:22
+All cards panel owned Cards filter:Not Owned At: 2020/07/02 14:21:23
+All cards panel owned Cards filter:Owned At: 2020/07/02 14:21:24
+Card filter:Mana to 1 At: 2020/07/02 14:21:25
+Card filter:Mana to 0 At: 2020/07/02 14:21:25
+Card filter:Mana to 0 At: 2020/07/02 14:21:26
+All cards panel owned Cards filter:Not Owned At: 2020/07/02 14:21:26
+exiting game At: 2020/07/02 14:21:28
+
+Login At:2020/07/02 14:22:32
+Menu:Collections At: 2020/07/02 14:22:34
+Card filter:Mana to 0 At: 2020/07/02 14:22:35
+Card filter:Mana to 1 At: 2020/07/02 14:22:36
+Card filter:Mana to 1 At: 2020/07/02 14:22:36
+Card filter:Mana to 1 At: 2020/07/02 14:22:36
+Card filter:Mana to 2 At: 2020/07/02 14:22:36
+Card filter:Mana to 2 At: 2020/07/02 14:22:37
+exiting game At: 2020/07/02 14:23:14
+
+Login At:2020/07/02 18:08:21
+Menu:Collections At: 2020/07/02 18:08:23
+Card filter:Mana to 0 At: 2020/07/02 18:08:26
+Card filter:Mana to 1 At: 2020/07/02 18:08:26
+Card filter:Mana to 1 At: 2020/07/02 18:08:26
+Card filter:Mana to 1 At: 2020/07/02 18:08:27
+Card filter:Mana to 2 At: 2020/07/02 18:08:27
+Card filter:Mana to 2 At: 2020/07/02 18:08:27
+Card filter:Mana to 2 At: 2020/07/02 18:08:29
+Card filter:Mana to 3 At: 2020/07/02 18:08:29
+Card filter:Mana to 3 At: 2020/07/02 18:08:29
+Card filter:Mana to 3 At: 2020/07/02 18:08:30
+Card filter:Mana to 4 At: 2020/07/02 18:08:30
+Card filter:Mana to 4 At: 2020/07/02 18:08:30
+Card filter:Mana to 4 At: 2020/07/02 18:08:31
+Card filter:Mana to 5 At: 2020/07/02 18:08:31
+Card filter:Mana to 5 At: 2020/07/02 18:08:32
+Card filter:Mana to 5 At: 2020/07/02 18:08:33
+Card filter:Mana to 6 At: 2020/07/02 18:08:33
+Card filter:Mana to 6 At: 2020/07/02 18:08:33
+Card filter:Mana to 6 At: 2020/07/02 18:08:34
+Card filter:Mana to 7 At: 2020/07/02 18:08:34
+Card filter:Mana to 7 At: 2020/07/02 18:08:34
+Card filter:Mana to 7 At: 2020/07/02 18:08:35
+Card filter:Mana to 8 At: 2020/07/02 18:08:35
+Card filter:Mana to 8 At: 2020/07/02 18:08:35
+Card filter:Mana to 8 At: 2020/07/02 18:08:37
+Card filter:Mana to 9 At: 2020/07/02 18:08:37
+Card filter:Mana to 9 At: 2020/07/02 18:08:37
+Card filter:Mana to 9 At: 2020/07/02 18:08:38
+Card filter:Mana to 10 At: 2020/07/02 18:08:38
+Card filter:Mana to 10 At: 2020/07/02 18:08:38
+exiting game At: 2020/07/02 18:08:40
+
+Login At:2020/07/06 23:21:20
+Menu:Collections At: 2020/07/06 23:21:22
+Panel:Decks At: 2020/07/06 23:21:24
+Panel:Create deck At: 2020/07/06 23:21:26
+Login At:2020/07/06 23:22:25
+Menu:Collections At: 2020/07/06 23:22:26
+Panel:Decks At: 2020/07/06 23:22:28
+Panel:Create deck At: 2020/07/06 23:22:30
+Hero selected:Rogue At: 2020/07/06 23:22:32
+Create button:clicked At: 2020/07/06 23:22:39
+Deck created:newRogue At: 2020/07/06 23:22:39
+exiting game At: 2020/07/06 23:22:43
+
+Login At:2020/07/07 00:59:16
+Login At:2020/07/07 02:56:25
+Login At:2020/07/07 03:00:16
+exiting game At: 2020/07/07 03:00:26
+
+Login At:2020/07/07 03:01:10
+Login At:2020/07/07 03:02:22
+Menu:Collections At: 2020/07/07 03:02:24
+Login At:2020/07/07 03:06:07
+Menu:Collections At: 2020/07/07 03:06:08
+Login At:2020/07/07 03:07:49
+Menu:Collections At: 2020/07/07 03:07:51
+Panel:Decks At: 2020/07/07 03:07:53
+Deck selected:my mage At: 2020/07/07 03:07:55
+Deck selected:my mage At: 2020/07/07 03:07:55
+Deck selected:mage1 At: 2020/07/07 03:07:56
+Deck selected:mage1 At: 2020/07/07 03:07:57
+Deck selected:newrogue At: 2020/07/07 03:07:59
+Deck selected:newrogue At: 2020/07/07 03:07:59
+Back button:back to main menu At: 2020/07/07 03:08:02
+exiting game At: 2020/07/07 03:08:24
+
+Login At:2020/07/07 20:38:27
+Login At:2020/07/07 20:52:33
+Login At:2020/07/07 23:04:22
+Login At:2020/07/07 23:08:39
+Login At:2020/07/07 23:10:11
+Login At:2020/07/07 23:13:07
+Login At:2020/07/07 23:14:08
+Login At:2020/07/07 23:14:33
+Login At:2020/07/07 23:15:24
+Login At:2020/07/07 23:21:12
+Login At:2020/07/08 00:18:03
+Menu:Collections At: 2020/07/08 00:18:04
+Panel:Decks At: 2020/07/08 00:18:06
+Deck selected:my mage At: 2020/07/08 00:18:08
+Deck selected:my mage At: 2020/07/08 00:18:08
+Back button:back to main menu At: 2020/07/08 00:18:20
+Login At:2020/07/08 01:22:16
+Login At:2020/07/08 14:45:17
+Login At:2020/07/08 14:46:46
+Login At:2020/07/08 14:47:55
+Login At:2020/07/08 14:50:23
+Login At:2020/07/08 14:57:31
+Login At:2020/07/08 14:59:51
+Login At:2020/07/08 15:00:17
+Login At:2020/07/08 16:11:58
+Menu:Collections At: 2020/07/08 16:12:00
+Panel:Decks At: 2020/07/08 16:12:02
+Panel:Create deck At: 2020/07/08 16:12:04
+back button:clicked At: 2020/07/08 16:12:06
+exiting game At: 2020/07/08 16:12:07
+
+Login At:2020/07/08 16:13:41
+Login At:2020/07/08 16:15:45
+Login At:2020/07/08 16:22:48
+Login At:2020/07/08 16:24:57
+Login At:2020/07/08 16:32:19
+Login At:2020/07/08 16:46:32
+Login At:2020/07/08 16:47:14
+Login At:2020/07/08 16:48:52
+Login At:2020/07/08 16:50:09
+Login At:2020/07/08 16:54:34
+Login At:2020/07/08 16:55:13
+Login At:2020/07/08 17:12:05
+Login At:2020/07/08 17:12:40
+Menu:Collections At: 2020/07/08 17:12:41
+Panel:Decks At: 2020/07/08 17:12:43
+Deck selected:mage1 At: 2020/07/08 17:12:45
+Deck selected:mage1 At: 2020/07/08 17:12:45
+Deck selected:newrogue At: 2020/07/08 17:12:46
+Deck selected:newrogue At: 2020/07/08 17:12:46
+Add Card Button:Clicked At: 2020/07/08 17:12:48
+Panel:Add card panel At: 2020/07/08 17:12:48
+Card selected:Arcane Servant At: 2020/07/08 17:12:50
+Card selected:Silverback Patriarch At: 2020/07/08 17:12:51
+Card selected:Arcane Servant At: 2020/07/08 17:12:52
+Add button:clicked At: 2020/07/08 17:12:53
+Card added:Arcane Servant At: 2020/07/08 17:12:53
+Card selected:River Crocolisk At: 2020/07/08 17:12:55
+Add button:clicked At: 2020/07/08 17:12:56
+Card added:River Crocolisk At: 2020/07/08 17:12:56
+Card selected:Murloc Raider At: 2020/07/08 17:12:57
+Add button:clicked At: 2020/07/08 17:12:58
+Card added:Murloc Raider At: 2020/07/08 17:12:58
+Card selected:Silverback Patriarch At: 2020/07/08 17:12:59
+Add button:clicked At: 2020/07/08 17:13:00
+Card added:Silverback Patriarch At: 2020/07/08 17:13:00
+Card selected:Stonetusk Boar At: 2020/07/08 17:13:02
+Add button:clicked At: 2020/07/08 17:13:03
+Card added:Stonetusk Boar At: 2020/07/08 17:13:03
+Card selected:Arcane Servant At: 2020/07/08 17:13:04
+Add button:clicked At: 2020/07/08 17:13:06
+Card added:Arcane Servant At: 2020/07/08 17:13:06
+Card selected:Murloc Raider At: 2020/07/08 17:13:07
+Add button:clicked At: 2020/07/08 17:13:08
+Card added:Murloc Raider At: 2020/07/08 17:13:08
+Card selected:The Black Knight At: 2020/07/08 17:13:09
+Add button:clicked At: 2020/07/08 17:13:11
+Card added:The Black Knight At: 2020/07/08 17:13:11
+Card selected:Fireball At: 2020/07/08 17:13:14
+Add button:clicked At: 2020/07/08 17:13:16
+Card added:Fireball At: 2020/07/08 17:13:16
+Card selected:Sinister Strike At: 2020/07/08 17:13:20
+Add button:clicked At: 2020/07/08 17:13:21
+Card added:Sinister Strike At: 2020/07/08 17:13:21
+Card selected:Arcane Explosion At: 2020/07/08 17:13:25
+Add button:clicked At: 2020/07/08 17:13:26
+Card added:Arcane Explosion At: 2020/07/08 17:13:26
+Card selected:Sinister Strike At: 2020/07/08 17:13:27
+Add button:clicked At: 2020/07/08 17:13:29
+Card added:Sinister Strike At: 2020/07/08 17:13:29
+Card selected:Arcane Explosion At: 2020/07/08 17:13:29
+Add button:clicked At: 2020/07/08 17:13:31
+Card added:Arcane Explosion At: 2020/07/08 17:13:31
+Card selected:Fireball At: 2020/07/08 17:13:32
+Add button:clicked At: 2020/07/08 17:13:34
+Card added:Fireball At: 2020/07/08 17:13:34
+Card selected:The Black Knight At: 2020/07/08 17:13:34
+Add button:clicked At: 2020/07/08 17:13:36
+Card added:The Black Knight At: 2020/07/08 17:13:36
+back button:clicked At: 2020/07/08 17:13:39
+Set current button:Clicked At: 2020/07/08 17:13:43
+Set Current:newrogue  is current deck At: 2020/07/08 17:13:43
+Back button:back to main menu At: 2020/07/08 17:13:45
+Login At:2020/07/08 17:16:36
+Login At:2020/07/08 17:41:31
+Login At:2020/07/08 18:04:58
+Login At:2020/07/08 18:06:48
+Login At:2020/07/08 19:54:56
+Login At:2020/07/08 19:56:41
+Login At:2020/07/08 19:58:03
+Login At:2020/07/08 21:10:13
+Login At:2020/07/09 18:01:56
+Login At:2020/07/09 18:08:37
+Login At:2020/07/09 20:58:36
+Login At:2020/07/10 16:06:54
+Login At:2020/07/10 16:21:06
+Login At:2020/07/10 16:21:54
+Login At:2020/07/10 16:24:05
+Login At:2020/07/10 19:22:32
+Login At:2020/07/10 19:30:16
+Login At:2020/07/10 19:34:21
+Login At:2020/07/10 23:09:42
+Login At:2020/07/10 23:10:38
+Login At:2020/07/10 23:15:20
+Login At:2020/07/10 23:22:37
+Login At:2020/07/10 23:24:31
+Login At:2020/07/10 23:26:27
+Login At:2020/07/10 23:28:20
+Login At:2020/07/10 23:29:13
+Login At:2020/07/10 23:36:16
+Login At:2020/07/10 23:42:30
+Login At:2020/07/10 23:52:15
+Login At:2020/07/10 23:53:16
+Login At:2020/07/10 23:55:24
+Login At:2020/07/11 00:05:29
+Login At:2020/07/11 00:12:18
+Menu:Collections At: 2020/07/11 00:12:19
+exiting game At: 2020/07/11 00:12:24
+
+Login At:2020/07/11 00:13:32
+Login At:2020/07/11 00:40:49
+Login At:2020/07/11 00:42:37
+Login At:2020/07/11 03:41:25
+Login At:2020/07/11 03:42:54
+Login At:2020/07/11 03:46:09
+Login At:2020/07/11 03:48:09
+Login At:2020/07/11 03:55:14
+Login At:2020/07/11 04:03:31
+Login At:2020/07/11 04:06:36
+Login At:2020/07/11 04:11:14
+Login At:2020/07/11 04:12:19
+Login At:2020/07/11 04:14:37
+Login At:2020/07/11 09:17:15
+Login At:2020/07/11 09:24:16
+Login At:2020/07/11 09:27:44
+Login At:2020/07/11 09:35:58
+Login At:2020/07/11 11:50:38
+Login At:2020/07/11 12:48:23
+Login At:2020/07/11 12:49:33
+Login At:2020/07/11 13:09:08
+Login At:2020/07/11 13:51:49
+Login At:2020/07/11 15:48:20
+Login At:2020/07/11 15:52:38
+Login At:2020/07/11 16:00:07
+Login At:2020/07/11 16:04:39
+Login At:2020/07/11 16:17:07
+Login At:2020/07/11 16:31:58
+Login At:2020/07/11 16:46:53
+Login At:2020/07/11 16:49:26
+Login At:2020/07/11 17:05:58
+Menu:Store At: 2020/07/11 17:06:01
+Card selected:Gnomish Army Knife At: 2020/07/11 17:06:17
+Buy button:Clicked At: 2020/07/11 17:06:19
+Buy:Successful At: 2020/07/11 17:06:21
+Card selected:Curio Collector At: 2020/07/11 17:06:36
+Buy button:Clicked At: 2020/07/11 17:06:38
+Buy:Successful At: 2020/07/11 17:06:40
+Card selected:Swarm of Locusts At: 2020/07/11 17:06:58
+Buy button:Clicked At: 2020/07/11 17:07:01
+Buy:Successful At: 2020/07/11 17:07:02
+Card selected:Pharaoh's Blessing At: 2020/07/11 17:07:09
+Buy button:Clicked At: 2020/07/11 17:07:12
+Buy:Successful At: 2020/07/11 17:07:13
+Card selected:Assassinate At: 2020/07/11 17:07:23
+Buy button:Clicked At: 2020/07/11 17:07:25
+Buy:Successful At: 2020/07/11 17:07:26
+Card selected:Tomb Warden At: 2020/07/11 17:07:35
+Buy button:Clicked At: 2020/07/11 17:07:38
+Buy:Successful At: 2020/07/11 17:07:40
+Panel:Sell Card At: 2020/07/11 17:07:53
+Card selected:Silverback Patriarch At: 2020/07/11 17:08:29
+Sell button:Clicked At: 2020/07/11 17:08:33
+Sell:Successful At: 2020/07/11 17:08:34
+Card selected:River Crocolisk At: 2020/07/11 17:08:36
+Sell button:Clicked At: 2020/07/11 17:08:39
+Sell:Successful At: 2020/07/11 17:08:40
+Card selected:The Black Knight At: 2020/07/11 17:08:42
+Sell button:Clicked At: 2020/07/11 17:08:44
+Sell:Successful At: 2020/07/11 17:08:46
+Back button:Clicked At: 2020/07/11 17:09:00
+Menu:Collections At: 2020/07/11 17:09:02
+Panel:Decks At: 2020/07/11 17:09:05
+Panel:Create deck At: 2020/07/11 17:09:06
+Hero selected:Paladin At: 2020/07/11 17:09:14
+Create button:clicked At: 2020/07/11 17:09:16
+Deck created:testPaladin At: 2020/07/11 17:09:16
+Deck selected:testpaladin At: 2020/07/11 17:09:18
+Deck selected:testpaladin At: 2020/07/11 17:09:18
+Add Card Button:Clicked At: 2020/07/11 17:09:20
+Panel:Add card panel At: 2020/07/11 17:09:20
+Card selected:Murloc Raider At: 2020/07/11 17:09:25
+Add button:clicked At: 2020/07/11 17:09:27
+Card added:Murloc Raider At: 2020/07/11 17:09:27
+Card selected:Stonetusk Boar At: 2020/07/11 17:09:35
+Add button:clicked At: 2020/07/11 17:09:37
+Card added:Stonetusk Boar At: 2020/07/11 17:09:37
+Card selected:Gnomish Army Knife At: 2020/07/11 17:09:45
+Add button:clicked At: 2020/07/11 17:09:47
+Card added:Gnomish Army Knife At: 2020/07/11 17:09:47
+Card selected:Curio Collector At: 2020/07/11 17:09:52
+Add button:clicked At: 2020/07/11 17:09:53
+Card added:Curio Collector At: 2020/07/11 17:09:53
+Card selected:Tomb Warden At: 2020/07/11 17:09:54
+Add button:clicked At: 2020/07/11 17:09:56
+Card added:Tomb Warden At: 2020/07/11 17:09:56
+Card selected:Pharaoh's Blessing At: 2020/07/11 17:09:57
+Add button:clicked At: 2020/07/11 17:09:58
+Card added:Pharaoh's Blessing At: 2020/07/11 17:09:58
+Card selected:Fireball At: 2020/07/11 17:10:08
+Add button:clicked At: 2020/07/11 17:10:09
+Card added:Fireball At: 2020/07/11 17:10:09
+Card selected:Murloc Raider At: 2020/07/11 17:10:11
+Add button:clicked At: 2020/07/11 17:10:12
+Card added:Murloc Raider At: 2020/07/11 17:10:12
+Card selected:Arcane Servant At: 2020/07/11 17:10:13
+Add button:clicked At: 2020/07/11 17:10:15
+Card added:Arcane Servant At: 2020/07/11 17:10:15
+Card selected:Stonetusk Boar At: 2020/07/11 17:10:16
+Add button:clicked At: 2020/07/11 17:10:17
+Card added:Stonetusk Boar At: 2020/07/11 17:10:17
+Card selected:Arcane Servant At: 2020/07/11 17:10:18
+Add button:clicked At: 2020/07/11 17:10:20
+Card added:Arcane Servant At: 2020/07/11 17:10:20
+Card selected:Assassinate At: 2020/07/11 17:10:21
+Card selected:Fireball At: 2020/07/11 17:10:22
+Add button:clicked At: 2020/07/11 17:10:23
+Card added:Fireball At: 2020/07/11 17:10:23
+Card selected:Swarm of Locusts At: 2020/07/11 17:10:26
+Add button:clicked At: 2020/07/11 17:10:27
+Card added:Swarm of Locusts At: 2020/07/11 17:10:27
+Card selected:Swarm of Locusts At: 2020/07/11 17:10:28
+Add button:clicked At: 2020/07/11 17:10:30
+Card added:Swarm of Locusts At: 2020/07/11 17:10:30
+Card selected:Curio Collector At: 2020/07/11 17:10:35
+Add button:clicked At: 2020/07/11 17:10:37
+Card added:Curio Collector At: 2020/07/11 17:10:37
+Back button:back to main menu At: 2020/07/11 17:10:40
+Menu:Collections At: 2020/07/11 17:10:42
+back button:clicked At: 2020/07/11 17:10:44
+Set current button:Clicked At: 2020/07/11 17:10:48
+Set Current:testpaladin  is current deck At: 2020/07/11 17:10:48
+Back button:back to main menu At: 2020/07/11 17:10:51
+Login At:2020/07/11 17:14:42
+Login At:2020/07/11 18:53:41
+Login At:2020/07/11 18:56:18
+Login At:2020/07/11 19:30:21
+Login At:2020/07/11 19:34:13
+Login At:2020/07/11 19:35:45
+Login At:2020/07/11 19:40:29
+Login At:2020/07/11 20:06:42
+Login At:2020/07/11 20:21:26
+Login At:2020/07/11 21:48:05
+Login At:2020/07/11 22:10:24
+Login At:2020/07/11 22:32:47
+Login At:2020/07/11 22:34:24
+Login At:2020/07/11 22:46:32
+Login At:2020/07/11 22:48:31

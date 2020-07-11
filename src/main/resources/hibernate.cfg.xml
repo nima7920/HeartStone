@@ -1,0 +1,59 @@
+<hibernate-configuration xmlns="http://www.hibernate.org/xsd/orm/cfg">
+    <session-factory>
+        <!--       database connection-->
+        <property name="connection.driver_class">org.sqlite.JDBC</property>
+        <property name="connection.url">jdbc:sqlite:./Game Data/Models/cards/all cards.db</property>
+
+        <!--        sql dialect-->
+        <property name="dialect">org.hibernate.dialect.SQLiteDialect</property>
+
+
+<!--                        <property name="hbm2ddl.auto">create</property>-->
+
+        <property name="hbm2ddl.auto">update</property>
+
+        <mapping class="GameCards.Card"/>
+        <mapping class="GameCards.Minion"/>
+        <mapping class="GameCards.Spell"/>
+        <mapping class="GameCards.Weapon"/>
+
+        <mapping class="AllCards.Polymorph"/>
+        <mapping class="AllCards.FriendlySmith"/>
+        <mapping class="AllCards.Dreadscale"/>
+        <mapping class="AllCards.RiverCrocolisk"/>
+        <mapping class="AllCards.ArcaneServant"/>
+        <mapping class="AllCards.SilverbackPatriarch"/>
+        <mapping class="AllCards.PhantomMilitia"/>
+        <mapping class="AllCards.MurlocRaider"/>
+        <mapping class="AllCards.StonetuskBoar"/>
+        <mapping class="AllCards.RottenApplebaum"/>
+        <mapping class="AllCards.TheBlackKnight"/>
+        <mapping class="AllCards.ProudDefender"/>
+        <mapping class="AllCards.Fireball"/>
+        <mapping class="AllCards.ArcaneMissiles"/>
+        <mapping class="AllCards.Assassinate"/>
+        <mapping class="AllCards.SinisterStrike"/>
+        <mapping class="AllCards.Hellfire"/>
+        <mapping class="AllCards.DrainLife"/>
+        <mapping class="AllCards.ArcaneExplosion"/>
+        <mapping class="AllCards.IronFist"/>
+        <mapping class="AllCards.BookOfSpecters"/>
+        <mapping class="AllCards.Sprint"/>
+        <mapping class="AllCards.SwarmOfLocusts"/>
+        <mapping class="AllCards.PharaohsBlessing"/>
+        <mapping class="AllCards.Sathrovarr"/>
+        <mapping class="AllCards.TombWarden"/>
+        <mapping class="AllCards.SecurityRover"/>
+        <mapping class="AllCards.CurioCollector"/>
+        <mapping class="AllCards.StrengthInNumbers"/>
+        <mapping class="AllCards.LearnDraconic"/>
+        <mapping class="AllCards.WickedKnife"/>
+        <mapping class="AllCards.BloodFury"/>
+        <mapping class="AllCards.HeavyAxe"/>
+        <mapping class="AllCards.SwampKingDred"/>
+        <mapping class="AllCards.MultiShot"/>
+        <mapping class="AllCards.GnomishArmyKnife"/>
+        <mapping class="AllCards.Consecration"/>
+
+    </session-factory>
+</hibernate-configuration>

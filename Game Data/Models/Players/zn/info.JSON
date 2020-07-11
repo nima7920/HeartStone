@@ -1,0 +1,29 @@
+{
+  "name": "zn",
+  "password": "zn13792000",
+  "id": 1592408124509,
+  "gems": 27,
+  "deckNames": [
+    "my mage",
+    "mage1",
+    "newrogue",
+    "testpaladin"
+  ],
+  "currentDeckName": "testpaladin",
+  "ownedCardsName": [
+    "Polymorph",
+    "Arcane Servant",
+    "Murloc Raider",
+    "Stonetusk Boar",
+    "Fireball",
+    "Sinister Strike",
+    "Arcane Explosion",
+    "Iron Fist",
+    "Gnomish Army Knife",
+    "Curio Collector",
+    "Swarm of Locusts",
+    "Pharaoh\u0027s Blessing",
+    "Assassinate",
+    "Tomb Warden"
+  ]
+}
