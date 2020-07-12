@@ -2,14 +2,15 @@
   "name": "zn",
   "password": "zn13792000",
   "id": 1592408124509,
-  "gems": 27,
+  "gems": 879,
   "deckNames": [
     "my mage",
     "mage1",
     "newrogue",
-    "testpaladin"
+    "testpaladin",
+    "testrogue"
   ],
-  "currentDeckName": "testpaladin",
+  "currentDeckName": "testrogue",
   "ownedCardsName": [
     "Polymorph",
     "Arcane Servant",
@@ -24,6 +25,26 @@
     "Swarm of Locusts",
     "Pharaoh\u0027s Blessing",
     "Assassinate",
-    "Tomb Warden"
+    "Tomb Warden",
+    "Friendly Smith",
+    "Dreadscale",
+    "River Crocolisk",
+    "Silverback Patriarch",
+    "Phantom Militia",
+    "Rotten Applebaum",
+    "The Black Knight",
+    "Proud Defender",
+    "Arcane Missiles",
+    "Hellfire",
+    "Drain Life",
+    "Book of Specters",
+    "Sprint",
+    "Sathrovarr",
+    "Strength in Numbers",
+    "Learn Draconic",
+    "Wicked Knife",
+    "Blood Fury",
+    "Heavy Axe",
+    "Consecration"
   ]
 }

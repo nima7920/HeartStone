@@ -17,18 +17,16 @@ public class GameScreen {
     private StoreMenu storeMenu;
     private StatusMenu statusMenu;
     private CollectionsMenu collectionsMenu;
-private PreparationMenu preparationMenu;
+    private PreparationMenu preparationMenu;
 
 
     private HashMap<String, GameMenu> menus;
 
     private JFrame gameFrame;
-    private AnimationEngine animationEngine;
     private static GameScreen gameScreen;
 
     private GameScreen() {
         initFrame();
-        animationEngine=new AnimationEngine(gameFrame);
     }
 
     public static GameScreen getInstance() {
@@ -54,7 +52,7 @@ private PreparationMenu preparationMenu;
 //
         gameFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         gameFrame.setVisible(true);
-        menus=new HashMap<>();
+        menus = new HashMap<>();
         initMenuMap();
     }
 
@@ -88,7 +86,7 @@ private PreparationMenu preparationMenu;
         menus.put("store", storeMenu);
         menus.put("status", statusMenu);
         menus.put("collections", collectionsMenu);
-        menus.put("preparation",preparationMenu);
+        menus.put("preparation", preparationMenu);
     }
 
     public void gotoMenu(String menuName) {
@@ -137,9 +135,10 @@ private PreparationMenu preparationMenu;
                     statusMenu = new StatusMenu();
                     menus.put(menuName, statusMenu);
                     break;
-                } case "preparation":{
-                    preparationMenu=new PreparationMenu();
-                    menus.put(menuName,preparationMenu);
+                }
+                case "preparation": {
+                    preparationMenu = new PreparationMenu();
+                    menus.put(menuName, preparationMenu);
                     break;
                 }
             }
@@ -154,8 +153,5 @@ private PreparationMenu preparationMenu;
         statusMenu.initTables();
     }
 
-    public AnimationEngine getAnimationEngine() {
-        return animationEngine;
-    }
 }
 

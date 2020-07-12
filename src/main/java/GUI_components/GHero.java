@@ -17,26 +17,26 @@ public class GHero extends GraphicalObject {
     private Point weaponLocation;
 
     public GHero(Dimension dimension, GamerHero gamerHero, Point location, Point weaponLocation) {
+        this.name = gamerHero.getName();
         this.dimension = dimension;
         this.xPos = location.x;
         this.yPos = location.y;
         this.weaponLocation = weaponLocation;
         this.heroBox = new Rectangle(xPos, yPos, dimension.width, dimension.height);
         this.gamerHero = gamerHero;
+        objectImage=imageLoader.getHeroImage(name);
+//        try {
+//            objectImage = ImageIO.read(new File(guiConfigLoader.getString("GHero_path")+name+".png"));
+//            System.out.println(name);
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
         sync();
     }
 
     public void sync() {
-        this.name = gamerHero.getName();
         this.hp = gamerHero.getHp();
         syncWeapon();
-        try {
-            objectImage = ImageIO.read(new File(guiConfigLoader.getString("GHero_path")+name+".png"));
-            System.out.println(name);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
     }
 
     private void syncWeapon() {

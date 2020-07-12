@@ -1,6 +1,7 @@
 package Logic_game;
 
 import GameCards.Minion;
+import GameCards.Weapon;
 import Logic_GUIInterfaces.GameChar;
 import Logic_GUIInterfaces.GamerMinion;
 import Logic_GUIInterfaces.PlayGround;
@@ -132,5 +133,11 @@ public class PlayGroundEditor {
 
     public void addMana() {
         playGround.getCurrentGamer().setMana(playGround.getCurrentGamer().getMana() + 1);
+    }
+
+    public void setWeapon(Weapon weapon){
+        playGround.getCurrentGamer().getGamerHero().setGamerWeapon(weapon);
+
+
     }
 }

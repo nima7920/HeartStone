@@ -1,5 +1,6 @@
 package GUI_menus;
 
+import Config.ImageLoader;
 import GUI_components.AnimationEngine;
 import GUI_components.GUIConfigLoader;
 import Logic_menus.MenuAdmin;
@@ -11,6 +12,7 @@ import java.awt.*;
 public abstract class GameMenu extends JPanel {
     protected MenuAdmin menuAdmin;
     protected GUIConfigLoader guiConfigLoader;
+    protected ImageLoader imageLoader = ImageLoader.getInstance();
 
     public GameMenu() {
         menuAdmin = MenuAdmin.getInstance();

@@ -17,11 +17,7 @@ public class GCard extends GraphicalObject {
         this.xPos = xPos;
         this.yPos = yPos;
         cardBox = new Rectangle(xPos, yPos, dimension.width, dimension.height);
-        try {
-            objectImage = ImageIO.read(GUIConfigLoader.gCard.getFile(name));
-        } catch (IOException e) {
-
-        }
+        objectImage = imageLoader.getCardImage(name);
     }
 
     public GCard(Dimension dimension, String name, Point O) {

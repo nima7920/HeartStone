@@ -1,34 +1,35 @@
 package GUI_components;
 
 import GUI_components.GraphicalObject;
+import GUI_game.PlayMenu;
 
 import java.awt.*;
 
 public class AnimationEngine {
-    private Component container;
+    private PlayMenu.PlayGroundPanel container;
     private long duration;
     private long delay;
     private long numberOfMoves;
-    public AnimationEngine(Component component) {
+
+    public AnimationEngine(PlayMenu.PlayGroundPanel component) {
         this.container = component;
     }
 
     public void move(GraphicalObject graphicalObject, Point destination) {
-        numberOfMoves=duration/delay;
+        numberOfMoves = duration / delay;
         int xDifference = destination.x - graphicalObject.getxPos(), yDifference = destination.y - graphicalObject.getyPos();
         int movedX = graphicalObject.getxPos(), movedY = graphicalObject.getyPos();
         double xMovement = ((double) xDifference) / ((double) numberOfMoves);
         double yMovement = ((double) yDifference) / ((double) numberOfMoves);
 
         System.out.println(numberOfMoves);
-        for (int i = 0; i <numberOfMoves ; i++) {
+        for (int i = 0; i < numberOfMoves; i++) {
             movedX = (int) Math.floor(movedX + xMovement);
-            movedY=(int) Math.floor(movedY+yMovement);
+            movedY = (int) Math.floor(movedY + yMovement);
             graphicalObject.setxPos(movedX);
             graphicalObject.setyPos(movedY);
-            container.revalidate();
-            container.repaint();
-            System.out.println("waiting at "+movedX + ","+movedY);
+            container.redraw();
+            System.out.println("waiting at " + movedX + "," + movedY);
             try {
                 Thread.sleep(delay);
             } catch (InterruptedException e) {

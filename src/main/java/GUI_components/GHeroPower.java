@@ -19,23 +19,24 @@ public class GHeroPower extends GraphicalObject {
 
 
     public GHeroPower(Dimension dimension, GamerHeroPower gamerHeroPower, Point location) {
+        this.name = gamerHeroPower.getHeroName();
         this.gamerHeroPower = gamerHeroPower;
         this.xPos = location.x;
         this.yPos = location.y;
         this.dimension = dimension;
         this.powerBox=new Ellipse2D.Double(xPos,yPos,dimension.width,dimension.height);
+        objectImage=imageLoader.getPowerImage(name);
+//        try {
+//            objectImage = ImageIO.read(new File(guiConfigLoader.getString("GHeroPower_path") + name + ".png"));
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
         sync();
     }
 
     public void sync() {
-        this.name = gamerHeroPower.getHeroName();
         this.manaCost = gamerHeroPower.getManaCost();
         this.enabled = gamerHeroPower.isEnabled();
-        try {
-            objectImage = ImageIO.read(new File(guiConfigLoader.getString("GHeroPower_path") + name + ".png"));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
     }
 
     @Override

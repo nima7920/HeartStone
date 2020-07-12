@@ -105,32 +105,44 @@ public class PlayState extends State {
 
     // methods for card selection panel
     public void changeCards(boolean[] selectedCards) {
-        if (selectedCards[0]) {
-            Collections.swap(playGround.getCurrentGamer().getDeckCards(), 0, 3);
+        for (int i = 0; i <3 ; i++) {
+            if (selectedCards[i]) {
+                Collections.swap(playGround.getCurrentGamer().getDeckCards(), i, i+3);
+            }
         }
-        if (selectedCards[1]) {
-            Collections.swap(playGround.getCurrentGamer().getDeckCards(), 1, 4);
-        }
-        if (selectedCards[2]) {
-            Collections.swap(playGround.getCurrentGamer().getDeckCards(), 2, 5);
-        }
+//        if (selectedCards[0]) {
+//            Collections.swap(playGround.getCurrentGamer().getDeckCards(), 0, 3);
+//        }
+//        if (selectedCards[1]) {
+//            Collections.swap(playGround.getCurrentGamer().getDeckCards(), 1, 4);
+//        }
+//        if (selectedCards[2]) {
+//            Collections.swap(playGround.getCurrentGamer().getDeckCards(), 2, 5);
+//        }
         initHands();
     }
 
     private void initHands() {
-        playGround.getCurrentGamer().getHandCards()[0] = playGround.getCurrentGamer().getDeckCards().get(0);
-        playGround.getCurrentGamer().getDeckCards().remove(0);
-        playGround.getCurrentGamer().getHandCards()[1] = playGround.getCurrentGamer().getDeckCards().get(1);
-        playGround.getCurrentGamer().getDeckCards().remove(1);
-        playGround.getCurrentGamer().getHandCards()[2] = playGround.getCurrentGamer().getDeckCards().get(2);
-        playGround.getCurrentGamer().getDeckCards().remove(2);
+        for (int i = 0; i <3 ; i++) {
+            playGround.getCurrentGamer().getHandCards()[i] = playGround.getCurrentGamer().getDeckCards().get(i);
+            playGround.getCurrentGamer().getDeckCards().remove(i);
 
-        playGround.getOpponentGamer().getHandCards()[0] = playGround.getOpponentGamer().getDeckCards().get(0);
-        playGround.getOpponentGamer().getDeckCards().remove(0);
-        playGround.getOpponentGamer().getHandCards()[1] = playGround.getOpponentGamer().getDeckCards().get(1);
-        playGround.getOpponentGamer().getDeckCards().remove(1);
-        playGround.getOpponentGamer().getHandCards()[2] = playGround.getOpponentGamer().getDeckCards().get(2);
-        playGround.getOpponentGamer().getDeckCards().remove(2);
+            playGround.getOpponentGamer().getHandCards()[i] = playGround.getOpponentGamer().getDeckCards().get(i);
+            playGround.getOpponentGamer().getDeckCards().remove(i);
+        }
+//        playGround.getCurrentGamer().getHandCards()[0] = playGround.getCurrentGamer().getDeckCards().get(0);
+//        playGround.getCurrentGamer().getDeckCards().remove(0);
+//        playGround.getCurrentGamer().getHandCards()[1] = playGround.getCurrentGamer().getDeckCards().get(1);
+//        playGround.getCurrentGamer().getDeckCards().remove(1);
+//        playGround.getCurrentGamer().getHandCards()[2] = playGround.getCurrentGamer().getDeckCards().get(2);
+//        playGround.getCurrentGamer().getDeckCards().remove(2);
+//
+//        playGround.getOpponentGamer().getHandCards()[0] = playGround.getOpponentGamer().getDeckCards().get(0);
+//        playGround.getOpponentGamer().getDeckCards().remove(0);
+//        playGround.getOpponentGamer().getHandCards()[1] = playGround.getOpponentGamer().getDeckCards().get(1);
+//        playGround.getOpponentGamer().getDeckCards().remove(1);
+//        playGround.getOpponentGamer().getHandCards()[2] = playGround.getOpponentGamer().getDeckCards().get(2);
+//        playGround.getOpponentGamer().getDeckCards().remove(2);
     }
 
 // playground methods
@@ -161,11 +173,12 @@ public class PlayState extends State {
         else if (originIndex == -1)
             heroToMinionAttack(targetIndex);
         else if (targetIndex == -1)
-            minionToHeroAttack(targetIndex);
+            minionToHeroAttack(originIndex);
         else
             minionToMinionAttack(originIndex, targetIndex);
 
-        cleanAbilities(originIndex, targetIndex);
+        cleanDeadObjects();
+        checkEndGame();
         return 1;
     }
 
@@ -201,6 +214,7 @@ public class PlayState extends State {
         if (origin.getIsLifeSteal())
             playGround.getCurrentGamer().getGamerHero().setHp(
                     playGround.getCurrentGamer().getGamerHero().getHp() + origin.getAttack());
+        cleanMinionToMinionAbilities(origin, target);
     }
 
     private void heroToMinionAttack(int targetIndex) {
@@ -210,7 +224,7 @@ public class PlayState extends State {
             target.setHp(target.getHp() - origin.getGamerWeapon().getAttack());
         }
         origin.setHp(origin.getHp() - target.getAttack());
-
+        cleanHeroToMinionAbilities(target);
     }
 
     private void minionToHeroAttack(int originIndex) {
@@ -222,6 +236,7 @@ public class PlayState extends State {
         if (origin.getIsLifeSteal())
             playGround.getCurrentGamer().getGamerHero().setHp(
                     playGround.getCurrentGamer().getGamerHero().getHp() + origin.getAttack());
+        cleanMinionToHeroAbilities(origin);
     }
 
     private void heroToHeroAttack() {
@@ -229,7 +244,7 @@ public class PlayState extends State {
                 target = playGround.getOpponentGamer().getGamerHero();
 
         target.setHp(target.getHp() - origin.getGamerWeapon().getAttack());
-
+        cleanHeroToHeroAbilities();
     }
 
     // returns true if it is possible to attack and false otherwise
@@ -269,10 +284,29 @@ public class PlayState extends State {
         }
     }
 
-    // a void for cleaning abilities after attack is done
-    private void cleanAbilities(int originIndex, int targetIndex) {
+    // methods for cleaning abilities after attack is done
+    private void cleanHeroToHeroAbilities() {
+        playGround.getCurrentGamer().getGamerHero().getGamerWeapon().setEnabled(false);
+    }
 
+    private void cleanHeroToMinionAbilities(GamerMinion target) {
+        playGround.getCurrentGamer().getGamerHero().getGamerWeapon().setEnabled(false);
+        target.removeAbility(Ability.DivineShield);
 
+    }
+
+    private void cleanMinionToHeroAbilities(GamerMinion origin) {
+        origin.removeAbility(Ability.Rush);
+        origin.removeAbility(Ability.Charge);
+        origin.setEnabled(false);
+    }
+
+    private void cleanMinionToMinionAbilities(GamerMinion origin, GamerMinion target) {
+        origin.removeAbility(Ability.Rush);
+        origin.removeAbility(Ability.Charge);
+        origin.removeAbility(Ability.DivineShield);
+        origin.setEnabled(false);
+        target.removeAbility(Ability.DivineShield);
     }
 
     private void cleanDeadObjects() {
@@ -388,10 +422,40 @@ public class PlayState extends State {
     private void summonMinion(Card card, int placeIndex) {
         if (playGround.getCurrentGround()[placeIndex] == null)
             playGround.getCurrentGround()[placeIndex] = new GamerMinion((Minion) card);
-        else {
-
+        else { // opening space for new card
+            if (placeIndex == 0) {
+                shiftGround(0,1);
+                playGround.getCurrentGround()[placeIndex] = new GamerMinion((Minion) card);
+            } else if (placeIndex == 6) {
+                if (playGround.getCurrentGround()[5] != null)
+                    shiftGround(5,-1);
+                playGround.getCurrentGround()[placeIndex - 1] = new GamerMinion((Minion) card);
+            } else {
+                shiftGround(placeIndex,1);
+                if (playGround.getCurrentGround()[placeIndex] != null) {
+                    shiftGround(placeIndex - 1,-1);
+                    playGround.getCurrentGround()[placeIndex - 1] = new GamerMinion((Minion) card);
+                } else
+                    playGround.getCurrentGround()[placeIndex] = new GamerMinion((Minion) card);
+            }
         }
         applySummonVisitors(playGround.getCurrentGround()[placeIndex]);
+    }
+
+    // the aim of the following two methods is to open space for the new minion to summon
+    private void shiftGround(int index, int direction) {
+        int i = index;
+        if(playGround.getCurrentGround()[index]==null)
+            return;
+        while( i>-1 && i<7 && playGround.getCurrentGround()[i]!=null){
+            i+=direction;
+        }
+        if(i==-1 || i==7)
+            return;
+        for (int j = i; j !=index ; j-=direction) { // shifting
+            playGround.getCurrentGround()[j]=playGround.getCurrentGround()[j-direction];
+            playGround.getCurrentGround()[j-direction]=null;
+        }
     }
 
     // a method for applying visitors on a summoned minion
@@ -408,7 +472,7 @@ public class PlayState extends State {
             return 0;
         // enough mana and enabled power ,
         playGround.getCurrentGamer().getGamerHero().getHero().accept(new PowerActionVisitor(), getPowerTarget(targetIndex));
-       playGround.getCurrentGamer().getGamerHeroPower().setEnabled(false);
+        playGround.getCurrentGamer().getGamerHeroPower().setEnabled(false);
         return 1;
     }
 
@@ -460,6 +524,7 @@ public class PlayState extends State {
     private void drawCard() {
         PlayGroundEditor.getInstance().drawOneCard();
     }
+
     private void updateMana() {
         playGround.getCurrentGamer().setMana(playGround.getCurrentGamer().getTurnNumber());
     }

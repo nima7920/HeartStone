@@ -31,24 +31,26 @@ public class GMinion extends GraphicalObject {
 
     // constructors
     public GMinion(Dimension dimension, GamerMinion gamerMinion, Point location) {
+        this.name = gamerMinion.getName();
         this.dimension = dimension;
         this.xPos = location.x;
         this.yPos = location.y;
         this.minionBox = new Ellipse2D.Double(xPos, yPos, dimension.width, dimension.height);
         this.gamerMinion = gamerMinion;
+        objectImage=imageLoader.getMinionImage(name);
+//        try {
+//            objectImage = ImageIO.read(new File(guiConfigLoader.getString("GMinion_path") + name + ".png"));
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
         sync();
     }
 
     public void sync() {
-        this.name = gamerMinion.getName();
         this.hp = gamerMinion.getHp();
         this.attack = gamerMinion.getAttack();
         syncAbilities();
-        try {
-            objectImage = ImageIO.read(new File(guiConfigLoader.getString("GMinion_path") + name + ".png"));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+
     }
 
     private void syncAbilities() {

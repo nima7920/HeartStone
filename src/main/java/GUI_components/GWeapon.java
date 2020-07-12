@@ -16,25 +16,27 @@ public class GWeapon extends GraphicalObject {
     private Ellipse2D objectBox;
 
     public GWeapon(Dimension dimension, GamerWeapon gamerWeapon, Point location) {
-
+        this.name = gamerWeapon.getName();
         this.gamerWeapon = gamerWeapon;
         this.dimension = dimension;
         this.xPos = location.x;
         this.yPos = location.y;
         this.objectBox = new Ellipse2D.Double(xPos, yPos, dimension.width, dimension.height);
+        objectImage=imageLoader.getWeaponImage(name);
+
+//        try {
+//            objectImage = ImageIO.read(new File(guiConfigLoader.getString("GWeapon_path") + name + ".png"));
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
         sync();
     }
 
     public void sync() {
         this.attack = gamerWeapon.getAttack();
         this.durability = gamerWeapon.getDurability();
-        this.name = gamerWeapon.getName();
         this.enabled = gamerWeapon.isEnabled();
-        try {
-            objectImage = ImageIO.read(new File(guiConfigLoader.getString("GWeapon_path") + name + ".png"));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+
     }
 
     @Override

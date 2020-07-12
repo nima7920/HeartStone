@@ -724,3 +724,180 @@ Login At:2020/07/11 22:32:47
 Login At:2020/07/11 22:34:24
 Login At:2020/07/11 22:46:32
 Login At:2020/07/11 22:48:31
+Login At:2020/07/12 01:16:32
+Login At:2020/07/12 08:36:16
+Login At:2020/07/12 08:39:38
+Login At:2020/07/12 08:52:11
+Login At:2020/07/12 09:23:33
+Login At:2020/07/12 09:25:36
+Login At:2020/07/12 09:29:03
+Login At:2020/07/12 10:39:29
+Login At:2020/07/12 10:41:17
+Login At:2020/07/12 10:47:44
+Login At:2020/07/12 10:49:31
+Login At:2020/07/12 11:07:52
+Login At:2020/07/12 11:09:06
+Login At:2020/07/12 11:09:50
+Login At:2020/07/12 11:46:40
+Menu:Collections At: 2020/07/12 11:46:41
+Back button:back to main menu At: 2020/07/12 11:46:46
+Menu:Store At: 2020/07/12 11:46:49
+Panel:Sell Card At: 2020/07/12 11:46:55
+Panel:Buy Card At: 2020/07/12 11:46:58
+Card selected:Friendly Smith At: 2020/07/12 11:46:59
+Buy button:Clicked At: 2020/07/12 11:47:01
+Buy:Successful At: 2020/07/12 11:47:03
+Card selected:Dreadscale At: 2020/07/12 11:47:04
+Buy button:Clicked At: 2020/07/12 11:47:06
+Buy:Successful At: 2020/07/12 11:47:08
+Card selected:River Crocolisk At: 2020/07/12 11:47:09
+Buy button:Clicked At: 2020/07/12 11:47:11
+Buy:Successful At: 2020/07/12 11:47:12
+Card selected:Silverback Patriarch At: 2020/07/12 11:47:34
+Buy button:Clicked At: 2020/07/12 11:47:35
+Buy:Successful At: 2020/07/12 11:47:36
+Card selected:Phantom Militia At: 2020/07/12 11:47:37
+Buy button:Clicked At: 2020/07/12 11:47:38
+Buy:Successful At: 2020/07/12 11:47:39
+Card selected:Rotten Applebaum At: 2020/07/12 11:47:40
+Buy button:Clicked At: 2020/07/12 11:47:41
+Buy:Successful At: 2020/07/12 11:47:42
+Card selected:The Black Knight At: 2020/07/12 11:47:44
+Buy button:Clicked At: 2020/07/12 11:47:45
+Buy:Successful At: 2020/07/12 11:47:46
+Card selected:Proud Defender At: 2020/07/12 11:47:47
+Buy button:Clicked At: 2020/07/12 11:47:48
+Buy:Successful At: 2020/07/12 11:47:49
+Card selected:Arcane Missiles At: 2020/07/12 11:47:51
+Buy button:Clicked At: 2020/07/12 11:47:53
+Buy:Successful At: 2020/07/12 11:47:54
+Card selected:Hellfire At: 2020/07/12 11:47:55
+Buy button:Clicked At: 2020/07/12 11:47:57
+Buy:Successful At: 2020/07/12 11:47:58
+Card selected:Drain Life At: 2020/07/12 11:47:59
+Buy button:Clicked At: 2020/07/12 11:48:00
+Buy:Successful At: 2020/07/12 11:48:01
+Card selected:Book of Specters At: 2020/07/12 11:48:02
+Buy button:Clicked At: 2020/07/12 11:48:03
+Buy:Successful At: 2020/07/12 11:48:04
+Card selected:Sprint At: 2020/07/12 11:48:05
+Buy button:Clicked At: 2020/07/12 11:48:07
+Buy:Successful At: 2020/07/12 11:48:09
+Card selected:Sathrovarr At: 2020/07/12 11:48:11
+Buy button:Clicked At: 2020/07/12 11:48:15
+Buy:Successful At: 2020/07/12 11:48:16
+Card selected:Security Rover At: 2020/07/12 11:48:18
+Card selected:Strength in Numbers At: 2020/07/12 11:48:19
+Buy button:Clicked At: 2020/07/12 11:48:21
+Buy:Successful At: 2020/07/12 11:48:23
+Card selected:Learn Draconic At: 2020/07/12 11:48:24
+Buy button:Clicked At: 2020/07/12 11:48:25
+Buy:Successful At: 2020/07/12 11:48:26
+Card selected:Wicked Knife At: 2020/07/12 11:48:27
+Buy button:Clicked At: 2020/07/12 11:48:29
+Buy:Successful At: 2020/07/12 11:48:30
+Card selected:Blood Fury At: 2020/07/12 11:48:31
+Buy button:Clicked At: 2020/07/12 11:48:32
+Buy:Successful At: 2020/07/12 11:48:33
+Card selected:Heavy Axe At: 2020/07/12 11:48:34
+Buy button:Clicked At: 2020/07/12 11:48:35
+Buy:Successful At: 2020/07/12 11:48:36
+Card selected:Multi-Shot At: 2020/07/12 11:48:38
+Card selected:Consecration At: 2020/07/12 11:48:38
+Buy button:Clicked At: 2020/07/12 11:48:40
+Buy:Successful At: 2020/07/12 11:48:41
+Back button:Clicked At: 2020/07/12 11:48:53
+Menu:Collections At: 2020/07/12 11:48:54
+Panel:Decks At: 2020/07/12 11:49:28
+Deck selected:my mage At: 2020/07/12 11:49:31
+Deck selected:my mage At: 2020/07/12 11:49:31
+Deck selected:mage1 At: 2020/07/12 11:49:47
+Deck selected:mage1 At: 2020/07/12 11:49:47
+Deck selected:newrogue At: 2020/07/12 11:49:49
+Deck selected:newrogue At: 2020/07/12 11:49:49
+Deck selected:testpaladin At: 2020/07/12 11:49:50
+Deck selected:testpaladin At: 2020/07/12 11:49:50
+Panel:Create deck At: 2020/07/12 11:49:52
+Hero selected:Rogue At: 2020/07/12 11:50:09
+Create button:clicked At: 2020/07/12 11:50:10
+Deck created:testRogue At: 2020/07/12 11:50:10
+Deck selected:testrogue At: 2020/07/12 11:50:12
+Deck selected:testrogue At: 2020/07/12 11:50:12
+Add Card Button:Clicked At: 2020/07/12 11:50:14
+Panel:Add card panel At: 2020/07/12 11:50:14
+Card selected:Wicked Knife At: 2020/07/12 11:50:24
+Add button:clicked At: 2020/07/12 11:50:25
+Card added:Wicked Knife At: 2020/07/12 11:50:25
+Card selected:Heavy Axe At: 2020/07/12 11:50:26
+Add button:clicked At: 2020/07/12 11:50:27
+Card added:Heavy Axe At: 2020/07/12 11:50:27
+Card selected:Blood Fury At: 2020/07/12 11:50:28
+Add button:clicked At: 2020/07/12 11:50:29
+Card added:Blood Fury At: 2020/07/12 11:50:29
+Card selected:Friendly Smith At: 2020/07/12 11:50:30
+Add button:clicked At: 2020/07/12 11:50:31
+Card added:Friendly Smith At: 2020/07/12 11:50:31
+Card selected:Friendly Smith At: 2020/07/12 11:50:37
+Add button:clicked At: 2020/07/12 11:50:38
+Card added:Friendly Smith At: 2020/07/12 11:50:38
+Card selected:Curio Collector At: 2020/07/12 11:50:46
+Add button:clicked At: 2020/07/12 11:50:47
+Card added:Curio Collector At: 2020/07/12 11:50:47
+Card selected:Tomb Warden At: 2020/07/12 11:50:48
+Add button:clicked At: 2020/07/12 11:50:49
+Card added:Tomb Warden At: 2020/07/12 11:50:49
+Card selected:Sathrovarr At: 2020/07/12 11:50:52
+Add button:clicked At: 2020/07/12 11:50:53
+Card added:Sathrovarr At: 2020/07/12 11:50:53
+Card selected:Sprint At: 2020/07/12 11:50:58
+Add button:clicked At: 2020/07/12 11:50:59
+Card added:Sprint At: 2020/07/12 11:50:59
+Card selected:Book of Specters At: 2020/07/12 11:51:02
+Add button:clicked At: 2020/07/12 11:51:03
+Card added:Book of Specters At: 2020/07/12 11:51:03
+Card selected:Hellfire At: 2020/07/12 11:51:07
+Add button:clicked At: 2020/07/12 11:51:08
+Card added:Hellfire At: 2020/07/12 11:51:08
+Card selected:Assassinate At: 2020/07/12 11:51:09
+Add button:clicked At: 2020/07/12 11:51:14
+Card added:Assassinate At: 2020/07/12 11:51:14
+Card selected:Arcane Servant At: 2020/07/12 11:51:42
+Add button:clicked At: 2020/07/12 11:51:43
+Card added:Arcane Servant At: 2020/07/12 11:51:43
+Card selected:River Crocolisk At: 2020/07/12 11:51:44
+Add button:clicked At: 2020/07/12 11:51:45
+Card added:River Crocolisk At: 2020/07/12 11:51:45
+Card selected:River Crocolisk At: 2020/07/12 11:51:46
+Add button:clicked At: 2020/07/12 11:51:47
+Card added:River Crocolisk At: 2020/07/12 11:51:47
+Card selected:Arcane Servant At: 2020/07/12 11:51:48
+Add button:clicked At: 2020/07/12 11:51:49
+Card added:Arcane Servant At: 2020/07/12 11:51:49
+Card selected:Phantom Militia At: 2020/07/12 11:51:53
+Card selected:Murloc Raider At: 2020/07/12 11:51:55
+Add button:clicked At: 2020/07/12 11:51:56
+Card added:Murloc Raider At: 2020/07/12 11:51:56
+Card selected:Murloc Raider At: 2020/07/12 11:51:57
+Add button:clicked At: 2020/07/12 11:51:58
+Card added:Murloc Raider At: 2020/07/12 11:51:58
+Card selected:Stonetusk Boar At: 2020/07/12 11:51:59
+Add button:clicked At: 2020/07/12 11:52:00
+Card added:Stonetusk Boar At: 2020/07/12 11:52:00
+Card selected:Stonetusk Boar At: 2020/07/12 11:52:01
+Add button:clicked At: 2020/07/12 11:52:02
+Card added:Stonetusk Boar At: 2020/07/12 11:52:02
+Back button:back to main menu At: 2020/07/12 11:52:03
+Menu:Collections At: 2020/07/12 11:52:05
+Panel:Decks At: 2020/07/12 11:52:07
+Deck selected:testpaladin At: 2020/07/12 11:52:11
+Deck selected:testpaladin At: 2020/07/12 11:52:11
+Deck selected:testrogue At: 2020/07/12 11:52:11
+Deck selected:testrogue At: 2020/07/12 11:52:12
+Set current button:Clicked At: 2020/07/12 11:52:19
+Set Current:testrogue  is current deck At: 2020/07/12 11:52:19
+Back button:back to main menu At: 2020/07/12 11:52:26
+Login At:2020/07/12 11:54:53
+Login At:2020/07/12 12:09:34
+Login At:2020/07/12 12:17:17
+Login At:2020/07/12 12:31:22
+Login At:2020/07/12 13:23:22

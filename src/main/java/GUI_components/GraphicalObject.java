@@ -1,11 +1,14 @@
 package GUI_components;
 
+import Config.ImageLoader;
+
 import java.awt.*;
 import java.awt.image.BufferedImage;
 
 public abstract class GraphicalObject implements Paintable {
 
     protected GUIConfigLoader guiConfigLoader=new GUIConfigLoader("components");
+    protected ImageLoader imageLoader=ImageLoader.getInstance();
     protected String name;
     protected int xPos, yPos;
     protected Dimension dimension;

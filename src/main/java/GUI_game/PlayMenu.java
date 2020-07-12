@@ -19,7 +19,7 @@ public class PlayMenu extends GameMenu {
     private PlayAdmin playAdmin = PlayAdmin.getInstance();
     private PlayGround playGround = PlayGround.getInstance();
     private Actions actions;
-    private AnimationEngine animationEngine = GameScreen.getInstance().getAnimationEngine();
+    private AnimationEngine animationEngine;
     private PlayGroundPanel playGroundPanel;
     private CardSelectionPanel cardSelectionPanel;
     private InfoPanel infoPanel;
@@ -94,8 +94,13 @@ public class PlayMenu extends GameMenu {
 //        }
     }
 
-    private class PlayGroundPanel extends JPanel {
+    public class PlayGroundPanel extends JPanel {
 
+        public void redraw(){
+            revalidate();
+            repaint();
+            this.paintComponent(this.getGraphics());
+        }
         private Point[] friendlyGroundLocations, enemyGroundLocations;
         private Point[] friendlyHandLocations, enemyHandLocations;
         private Point friendlyHeroLocation, enemyHeroLocation;
@@ -134,6 +139,7 @@ public class PlayMenu extends GameMenu {
             initFields();
             loadScales();
             initGraphicalObjects();
+            animationEngine=new AnimationEngine(this);
             PlayMenu.this.repaint();
         }
 
@@ -232,12 +238,13 @@ public class PlayMenu extends GameMenu {
         }
 
         private void drawBackground(Graphics2D g2d) {
-            try {
-                BufferedImage backGroundImage = ImageIO.read(new File(guiConfigLoader.getString("playGroundPanel_backgroundImage_path")));
-                g2d.drawImage(backGroundImage, 0, 0, 1100, 800, null);
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+            g2d.drawImage(imageLoader.getBackgroundImage("Playground"), 0, 0, 1100, 800, null);
+//            try {
+//                BufferedImage backGroundImage = ImageIO.read(new File(guiConfigLoader.getString("playGroundPanel_backgroundImage_path")));
+//                g2d.drawImage(backGroundImage, 0, 0, 1100, 800, null);
+//            } catch (IOException e) {
+//                e.printStackTrace();
+//            }
         }
 
 
@@ -366,35 +373,15 @@ public class PlayMenu extends GameMenu {
         }
 
 
-        private void performAttack() { // performs the attack action of minions
-            int result = playAdmin.attack(originIndex, targetIndex);
-            switch (result) {
-                case -2: {
-
-                }
-                case -1: {
-
-                }
-                case 0: {
-
-                }
-                case 1: { // successful attack
-
-
-                }
-            }
-        }
-
-
     }
 
     // a panel for the first 3 cards in hand
     private class CardSelectionPanel extends JPanel {
 
-        private GCard card1, card2, card3;
+        private GCard[] cards = new GCard[3];
         private GButton doneButton;
 
-        private boolean cardChange1 = false, cardChange2 = false, cardChange3 = false;
+        private boolean changedCards[] = new boolean[3];
 
         public CardSelectionPanel() {
             setLayout(null);
@@ -408,17 +395,22 @@ public class PlayMenu extends GameMenu {
 
         private void initCards() {
             ArrayList<String> firstCards = playAdmin.getFirstCards();
-            card1 = new GCard(guiConfigLoader.getSize("cardSelection_card1_bounds"),
-                    firstCards.get(0),
-                    guiConfigLoader.getPoint("cardSelection_card1_bounds"));
-
-            card2 = new GCard(guiConfigLoader.getSize("cardSelection_card2_bounds"),
-                    firstCards.get(1),
-                    guiConfigLoader.getPoint("cardSelection_card2_bounds"));
-
-            card3 = new GCard(guiConfigLoader.getSize("cardSelection_card3_bounds"),
-                    firstCards.get(2),
-                    guiConfigLoader.getPoint("cardSelection_card3_bounds"));
+            for (int i = 0; i < 3; i++) {
+                cards[i] = new GCard(guiConfigLoader.getSize("cardSelection_card" + (i + 1) + "_bounds"),
+                        firstCards.get(i),
+                        guiConfigLoader.getPoint("cardSelection_card" + (i + 1) + "_bounds"));
+            }
+//            card1 = new GCard(guiConfigLoader.getSize("cardSelection_card1_bounds"),
+//                    firstCards.get(0),
+//                    guiConfigLoader.getPoint("cardSelection_card1_bounds"));
+//
+//            card2 = new GCard(guiConfigLoader.getSize("cardSelection_card2_bounds"),
+//                    firstCards.get(1),
+//                    guiConfigLoader.getPoint("cardSelection_card2_bounds"));
+//
+//            card3 = new GCard(guiConfigLoader.getSize("cardSelection_card3_bounds"),
+//                    firstCards.get(2),
+//                    guiConfigLoader.getPoint("cardSelection_card3_bounds"));
         }
 
         private void initDoneButton() {
@@ -445,12 +437,16 @@ public class PlayMenu extends GameMenu {
         }
 
         private void paintCards(Graphics2D g2d) {
-            if (card1 != null)
-                card1.render(g2d);
-            if (card2 != null)
-                card2.render(g2d);
-            if (card3 != null)
-                card3.render(g2d);
+            for (int i = 0; i < 3; i++) {
+                if (cards[i] != null)
+                    cards[i].render(g2d);
+            }
+//            if (card1 != null)
+//                card1.render(g2d);
+//            if (card2 != null)
+//                card2.render(g2d);
+//            if (card3 != null)
+//                card3.render(g2d);
 
         }
     }
@@ -548,9 +544,11 @@ public class PlayMenu extends GameMenu {
         public void actionPerformed(ActionEvent e) {
             // card selection done button
             if (e.getSource() == cardSelectionPanel.doneButton) {
-                boolean[] selectedCards = new boolean[]{cardSelectionPanel.cardChange1,
-                        cardSelectionPanel.cardChange2, cardSelectionPanel.cardChange3};
-                playAdmin.changeCards(selectedCards);
+//                boolean[] selectedCards = new boolean[]{cardSelectionPanel.cardChange1,
+//                        cardSelectionPanel.cardChange2, cardSelectionPanel.cardChange3};
+                System.out.println(cardSelectionPanel.changedCards[0] + "," +
+                        cardSelectionPanel.changedCards[1] + "," + cardSelectionPanel.changedCards[2]);
+                playAdmin.changeCards(cardSelectionPanel.changedCards);
                 playGroundPanel.sync();
                 openPanel("playground");
                 infoPanel.gTimer.start();
@@ -558,7 +556,7 @@ public class PlayMenu extends GameMenu {
 
             // playground end turn button
             if (e.getSource() == playGroundPanel.endTurnButton) {
-                playGroundPanel.originSelected=false;
+                playGroundPanel.originSelected = false;
                 endTurn();
             }
         }
@@ -572,29 +570,35 @@ public class PlayMenu extends GameMenu {
         public void mousePressed(MouseEvent e) {
 // handling card selection panel clicks
             if (e.getSource() == cardSelectionPanel) {
-
-                if (cardSelectionPanel.card1.isMouseInside(e)) {
-                    cardSelectionPanel.cardChange1 = !cardSelectionPanel.cardChange1;
-                    cardSelectionPanel.card1.setLocked(cardSelectionPanel.cardChange1);
-                    cardSelectionPanel.repaint();
+                for (int i = 0; i < 3; i++) {
+                    if (cardSelectionPanel.cards[i].isMouseInside(e)) {
+                        cardSelectionPanel.changedCards[i] = !cardSelectionPanel.changedCards[i];
+                        cardSelectionPanel.cards[i].setLocked(cardSelectionPanel.changedCards[i]);
+                        cardSelectionPanel.repaint();
+                    }
                 }
-                if (cardSelectionPanel.card2.isMouseInside(e)) {
-                    cardSelectionPanel.cardChange2 = !cardSelectionPanel.cardChange2;
-                    cardSelectionPanel.card2.setLocked(cardSelectionPanel.cardChange2);
-                    cardSelectionPanel.repaint();
-                }
-                if (cardSelectionPanel.card3.isMouseInside(e)) {
-                    cardSelectionPanel.cardChange3 = !cardSelectionPanel.cardChange3;
-                    cardSelectionPanel.card3.setLocked(cardSelectionPanel.cardChange3);
-                    cardSelectionPanel.repaint();
-                }
+//                if (cardSelectionPanel.card1.isMouseInside(e)) {
+//                    cardSelectionPanel.cardChange1 = !cardSelectionPanel.cardChange1;
+//                    cardSelectionPanel.card1.setLocked(cardSelectionPanel.cardChange1);
+//                    cardSelectionPanel.repaint();
+//                }
+//                if (cardSelectionPanel.card2.isMouseInside(e)) {
+//                    cardSelectionPanel.cardChange2 = !cardSelectionPanel.cardChange2;
+//                    cardSelectionPanel.card2.setLocked(cardSelectionPanel.cardChange2);
+//                    cardSelectionPanel.repaint();
+//                }
+//                if (cardSelectionPanel.card3.isMouseInside(e)) {
+//                    cardSelectionPanel.cardChange3 = !cardSelectionPanel.cardChange3;
+//                    cardSelectionPanel.card3.setLocked(cardSelectionPanel.cardChange3);
+//                    cardSelectionPanel.repaint();
+//                }
 
             }
 
             // playGround panel mouse pressed
             if (e.getSource() == playGroundPanel) {
 //                if (playGroundPanel.turn.equals("friendly"))
-                    handleClick(e);
+                handlePlayGroundClick(e);
 //                else
 //                    enemyClicked(e);
             }
@@ -627,6 +631,12 @@ public class PlayMenu extends GameMenu {
 
         }
 
+        private void actionCompleted() {
+            playGroundPanel.originSelected = false;
+            playGroundPanel.sync();
+            playGroundPanel.repaint();
+        }
+
         // setting infoPanel card
         private void checkCardHover(MouseEvent e) {
             // ground
@@ -655,9 +665,9 @@ public class PlayMenu extends GameMenu {
         }
 
         // voids for handling playGround mouse clicks
-        private void handleClick(MouseEvent e) {
-            String turn=playGroundPanel.turn;
-            String nonTurn=(turn.equals("friendly")?"enemy":"friendly");
+        private void handlePlayGroundClick(MouseEvent e) {
+            String turn = playGroundPanel.turn;
+            String nonTurn = (turn.equals("friendly") ? "enemy" : "friendly");
             if (playGroundPanel.originSelected) { // an origin is already selected
                 switch (playGroundPanel.originType) {
                     case "character": {
@@ -665,15 +675,16 @@ public class PlayMenu extends GameMenu {
                             // checking whether target is a minion
                             if (getGround(nonTurn)[i] != null && getGround(nonTurn)[i].isMouseInside(e)) {
                                 playGroundPanel.targetIndex = i;
-                                playGroundPanel.performAttack();
+                                performAttack();
                                 return;
                             }
                         }
                         if (getHero(nonTurn).isMouseInside(e)) {
                             playGroundPanel.targetIndex = -1;
-                            playGroundPanel.performAttack();
+                            performAttack();
                             return;
                         }
+                        infoPanel.setMessageText("No target selected");
                         playGroundPanel.originSelected = false;
                         break;
                     }
@@ -681,7 +692,7 @@ public class PlayMenu extends GameMenu {
                     case "card": {
                         if (getField(turn).contains(e.getPoint())) {
                             playGroundPanel.targetType = playAdmin.getCardTargetType(playGroundPanel.originIndex);
-                            playGroundPanel.destinationIndex = ((e.getX() - getField(turn).x) + 20) / 120; // must be editted
+                            playGroundPanel.destinationIndex = getDestinationIndex(e);
                             if (playGroundPanel.targetType == 0) { // card must be played with no target
                                 playCard();
                                 playGroundPanel.originSelected = false;
@@ -801,6 +812,15 @@ public class PlayMenu extends GameMenu {
             return -1;
         }
 
+        private int getDestinationIndex(MouseEvent e) {
+            int minionWidth = guiConfigLoader.getInt("playGroundPanel_GMinionSize_width");
+            int firstMinionX = guiConfigLoader.getInt("playGroundPanel_friendlyGround_x");
+            int align = guiConfigLoader.getInt("playGroundPanel_groundMinion_align");
+            if (e.getPoint().x <= firstMinionX + minionWidth)
+                return 0;
+            return ((e.getPoint().x - minionWidth - firstMinionX) / align + 1);
+        }
+
         // methods for playing cards
         // method uses fields declared in playGroundPanel to communicate with admin
         // it is assumed that the fields already have valid values
@@ -825,6 +845,29 @@ public class PlayMenu extends GameMenu {
 
         }
 
+        private void performAttack() {
+            int result = playAdmin.attack(playGroundPanel.originIndex, playGroundPanel.targetIndex);
+            switch (result) {
+                case -2: { // rush error
+                    infoPanel.setMessageText("Rush Minion can't attack Hero");
+                    break;
+                }
+                case -1: { // taunt error
+                    infoPanel.setMessageText("You should attack taunt");
+                    break;
+                }
+                case 0: { // active error
+                    infoPanel.setMessageText("minion is not active");
+                    break;
+                }
+                case 1: { // successful attack
+// animation part must be added
+                    break;
+                }
+            }
+            actionCompleted();
+        }
+
         // method uses originIndex and destinationIndex in playGround panel combined with animationEngine
         // to move a card from hand to field
         private void moveCard() {
@@ -843,8 +886,8 @@ public class PlayMenu extends GameMenu {
         // verifies hero powers selected target
         // sets playGroundPanel.targetIndex as well
         private boolean verifyPowerTarget(MouseEvent e) {
-            String turn=playGroundPanel.turn;
-            String nonTurn=(turn.equals("friendly")?"enemy":"friendly");
+            String turn = playGroundPanel.turn;
+            String nonTurn = (turn.equals("friendly") ? "enemy" : "friendly");
             if (playGroundPanel.targetType == 0)
                 return true;
             if (playGroundPanel.targetType == 1) {
@@ -855,7 +898,7 @@ public class PlayMenu extends GameMenu {
             }
             // target type is 2
             for (int i = 0; i < 7; i++) {
-                if (getGround(nonTurn)[i]!=null && getGround(nonTurn)[i].isMouseInside(e)) {
+                if (getGround(nonTurn)[i] != null && getGround(nonTurn)[i].isMouseInside(e)) {
                     playGroundPanel.targetIndex = i;
                     return true;
                 }
@@ -892,37 +935,38 @@ public class PlayMenu extends GameMenu {
             playGroundPanel.sync();
             playGroundPanel.repaint();
         }
-    // some methods for handling clicks easier
-        private Rectangle getField(String turn){
-            if(turn.equals("friendly"))
+
+        // some methods for handling clicks easier
+        private Rectangle getField(String turn) {
+            if (turn.equals("friendly"))
                 return playGroundPanel.friendlyField;
             else
                 return playGroundPanel.enemyField;
         }
 
-        private GHero getHero(String turn){
-            if(turn.equals("friendly"))
+        private GHero getHero(String turn) {
+            if (turn.equals("friendly"))
                 return playGroundPanel.friendlyHero;
             else
                 return playGroundPanel.enemyHero;
         }
 
-        private GHeroPower getHeroPower(String turn){
-            if(turn.equals("friendly"))
+        private GHeroPower getHeroPower(String turn) {
+            if (turn.equals("friendly"))
                 return playGroundPanel.friendlyPower;
             else
                 return playGroundPanel.enemyPower;
         }
 
-        private GCard[] getHand(String turn){
-            if(turn.equals("friendly"))
+        private GCard[] getHand(String turn) {
+            if (turn.equals("friendly"))
                 return playGroundPanel.friendlyHand;
             else
                 return playGroundPanel.enemyHand;
         }
 
-        private GMinion[] getGround(String turn){
-            if(turn.equals("friendly"))
+        private GMinion[] getGround(String turn) {
+            if (turn.equals("friendly"))
                 return playGroundPanel.friendlyGround;
             else
                 return playGroundPanel.enemyGround;
